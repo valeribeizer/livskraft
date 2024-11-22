@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "ITC Benguiat";
+  src: url("fonts/BenguiatStd-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "ITC Benguiat", serif;
+  color: #3f3b36;
+  background-color: #eae5db;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  p {
+    font-size: 16px;
+  }
 }
