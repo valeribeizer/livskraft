@@ -1,6 +1,7 @@
 .modal-container {
   position: relative;
-  background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/tsInfo-bg.png");
+  /* background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/tsInfo-bg.png"); */
+  background-image: url("/tsInfo-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -76,7 +77,8 @@ label {
 
 @media (max-width: 560px) {
   .modal-container {
-    background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/tsInfo-bg-mb.png");
+    /* background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/tsInfo-bg-mb.png"); */
+    background-image: url("/tsInfo-bg-mb.png");
     height: 680px;
     padding-top: 8%;
   }

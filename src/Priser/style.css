@@ -15,7 +15,8 @@
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s;
-  background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/priser-bg.png");
+  /* background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/priser-bg.png"); */
+  background-image: url('/priser-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
