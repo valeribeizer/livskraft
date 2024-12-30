@@ -1,0 +1,34 @@
+.om-oss-container {
+  padding: 5%;
+}
+
+.om-oss-img {
+  width: 90%;
+}
+
+.p-om-oss {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+
+.padding-col {
+  padding-right: 0;
+}
+
+.justify-content-col {
+  justify-content: end;
+}
+
+@media (max-width: 560px) {
+  .om-oss-container {
+    padding: 15% 5%;
+  }
+
+  .justify-content-col {
+    justify-content: center;
+  }
+
+  .padding-col {
+    padding: 0;
+  }
+}

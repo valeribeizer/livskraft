@@ -1,0 +1,38 @@
+.kt-container {
+  padding: 5%;
+}
+
+.kt-content {
+  text-align: center;
+}
+
+.kt-img {
+  width: 30%;
+  margin-bottom: 2%;
+}
+
+.p-kontakt {
+  font-style: italic;
+  margin-bottom: 2%;
+}
+
+.a-kontakt {
+  text-decoration: none;
+  color: #3f3b36;
+}
+
+@media (max-width: 560px) {
+  .kt-container {
+    padding: 15% 5%;
+  }
+
+  .kt-img {
+    width: 100%;
+    margin: 15% 0;
+  }
+
+  .p-kontakt {
+    font-size: 20px;
+    margin-bottom: 15%;
+  }
+}

@@ -16,12 +16,47 @@ h1 {
   font-size: 30px;
 }
 
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 19px;
+}
+
 p {
   font-size: 16px;
 }
 
+.btn_main {
+  width: 30%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #3f3b36;
+  color: #eae5db;
+  margin: 2% 0;
+}
+
+.btn_main:hover {
+  opacity: 0.7;
+}
+
 @media (max-width: 576px) {
-  p {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
     font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .btn_main {
+    width: 90%;
+    margin: 5% 0;
   }
 }

@@ -1,0 +1,38 @@
+.hs_container {
+  text-align: center;
+}
+
+.hs_img {
+  width: 30%;
+  margin-top: 5%;
+}
+
+h1 {
+  margin: 2% 0;
+}
+
+.p-hs {
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn_hs {
+  margin-bottom: 6%;
+}
+
+@media (max-width: 560px) {
+  .hs_img {
+    width: 100%;
+    margin-top: 25%;
+  }
+
+  h1 {
+    margin: 8% 0;
+  }
+
+  .p-hs {
+    width: 90%;
+  }
+}

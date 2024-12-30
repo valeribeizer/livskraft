@@ -1,0 +1,39 @@
+.ts-container {
+  padding: 5%;
+}
+
+.ts-img {
+  width: 70%;
+}
+
+.h2-ts {
+  text-transform: uppercase;
+}
+
+.p-ts {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+.margin {
+  margin-top: 8%;
+}
+
+.align {
+  align-items: center;
+}
+
+.align-1 {
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  .ts-container {
+    padding: 15% 5%;
+  }
+
+  .margin {
+    margin-top: 50px;
+    gap: 50px;
+  }
+}

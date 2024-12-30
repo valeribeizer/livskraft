@@ -1,0 +1,40 @@
+.blog-container {
+  padding: 5%;
+}
+
+.p-blog {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  font-size: 14px;
+  margin-top: 10%;
+  white-space: pre-line;
+}
+
+.col-lg-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+}
+
+@media (max-width: 560px) {
+  .blog-container {
+    padding: 15% 5%;
+  }
+
+  .img-blog {
+    width: 110%;
+  }
+
+  .col-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .second {
+    margin-top: 10%;
+  }
+}

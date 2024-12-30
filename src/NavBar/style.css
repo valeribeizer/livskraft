@@ -1,0 +1,31 @@
+.logo {
+  display: flex;
+  justify-self: center;
+  width: 50%;
+}
+
+.nav-item {
+  padding: 0 4%;
+}
+
+.nav-link {
+  padding-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #eae5db !important;
+  --bs-navbar-toggler-focus-width: 0.05rem;
+}
+
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+
+@media (max-width: 560px) {
+  .nav-link {
+    font-size: 14px;
+  }
+}
