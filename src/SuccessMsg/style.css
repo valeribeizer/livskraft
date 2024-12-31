@@ -37,6 +37,7 @@
   .scs-msg-container {
     /* background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/tsInfo-bg-mb.png"); */
     background-size: contain;
-    height: 550px;
+    height: 530px;
+    width: 340px;
   }
 }
