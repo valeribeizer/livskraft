@@ -80,9 +80,11 @@ label {
     /* background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/tsInfo-bg-mb.png"); */
     /* background-image: url("/tsInfo-bg-mb.png"); */
     /* background-size: contain; */
-    height: 530px;
-    width: 340px;
-    padding-top: 8%;
+    /* height: 530px;
+    width: 340px; */
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 8%;
   }
 
   form {
