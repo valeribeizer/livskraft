@@ -79,7 +79,8 @@ label {
   .modal-container {
     /* background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/tsInfo-bg-mb.png"); */
     /* background-image: url("/tsInfo-bg-mb.png"); */
-    height: 570px;
+    background-size: auto;
+    height: 530px;
     padding-top: 8%;
   }
 
