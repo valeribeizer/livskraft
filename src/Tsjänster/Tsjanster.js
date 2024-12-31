@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import NavBar from "../NavBar/NavBar";
-import { Link } from "react-router";
 import TsjansterInfo from "../Tsjänster Info/TsjansterInfo";
 import "./style.css";
 import Footer from "../Footer/Footer";
