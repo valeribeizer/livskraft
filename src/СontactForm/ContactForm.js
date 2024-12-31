@@ -3,7 +3,6 @@ import emailjs from "@emailjs/browser";
 import "./style.css";
 
 const ContactForm = ({ isOpen, onClose, onSubmit }) => {
-  if (!isOpen) return null;
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -25,6 +24,8 @@ const ContactForm = ({ isOpen, onClose, onSubmit }) => {
         }
       );
   };
+
+  if (!isOpen) return null;
 
   return (
     <div className="overlay" onClick={onClose}>
