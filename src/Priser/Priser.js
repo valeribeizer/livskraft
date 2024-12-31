@@ -88,7 +88,10 @@ const Priser = () => {
                     }`}
                     onClick={() => handleCardClick(index)}
                   >
-                    <div className="card">
+                    <div
+                      className="card"
+                      style={{ backgroundImage: "url('/priser-bg.png')" }}
+                    >
                       <div className="card-front">
                         <img
                           className="img-priser"
@@ -125,7 +128,10 @@ const Priser = () => {
                     }`}
                     onClick={() => handleCardClick(index)}
                   >
-                    <div className="card">
+                    <div
+                      className="card"
+                      style={{ backgroundImage: "url('/priser-bg.png')" }}
+                    >
                       <div className="card-front">
                         <img
                           className="img-priser"
@@ -147,7 +153,9 @@ const Priser = () => {
           </div>
         )}
         <div className="row row-priser">
-          <h2 className="h2-priser" style={{ textAlign: "center" }}>KONTAKTA FÖR OFFERT</h2>
+          <h2 className="h2-priser" style={{ textAlign: "center" }}>
+            KONTAKTA FÖR OFFERT
+          </h2>
           <p className="p-priser" style={{ textAlign: "center" }}>
             Alla priser inkluderar moms, och vi erbjuder smidiga
             betalningsalternativ som Swish, kortbetalning och banköverföring.

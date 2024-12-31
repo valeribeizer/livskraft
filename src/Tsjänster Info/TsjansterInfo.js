@@ -7,7 +7,16 @@ const TsjansterInfo = ({ isOpen, content, onClose }) => {
 
   return (
     <div className="overlay" onClick={onClose}>
-      <div className="tsInfo-container" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="tsInfo-container"
+        style={{
+          backgroundImage:
+            window.innerWidth > 560
+              ? "url('/tsInfo-bg.png')"
+              : "url('/tsInfo-bg-mb.png')",
+        }}
+        onClick={(e) => e.stopPropagation()}
+      >
         <h2>{content.title}</h2>
         <div
           className="p-tsInfo"
@@ -19,7 +28,10 @@ const TsjansterInfo = ({ isOpen, content, onClose }) => {
           </Link>
         )}
         <button className="btn_main">
-          <Link to="/kontakt" style={{ color: "#eae5db", textDecoration: "none" }}>
+          <Link
+            to="/kontakt"
+            style={{ color: "#eae5db", textDecoration: "none" }}
+          >
             SKICKA BOKNINGSFÖRFRÅGAN
           </Link>
         </button>

@@ -25,7 +25,16 @@ const ContactForm = ({ isOpen, onClose, onSubmit }) => {
 
   return (
     <div className="overlay" onClick={onClose}>
-      <div className="modal-container" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="modal-container"
+        style={{
+          backgroundImage:
+            window.innerWidth > 560
+              ? "url('/tsInfo-bg.png')"
+              : "url('/tsInfo-bg-mb.png')",
+        }}
+        onClick={(e) => e.stopPropagation()}
+      >
         <h2>FÅ STÖD</h2>
         <form className="needs-validation" ref={form} onSubmit={sendEmail}>
           <label for="validation-1" className="form-label">
@@ -108,11 +117,7 @@ const ContactForm = ({ isOpen, onClose, onSubmit }) => {
               personligt anpassat stöd.
             </label>
           </div>
-          <button
-            className="btn_main"
-            type="submit"
-            onClick={onSubmit}
-          >
+          <button className="btn_main" type="submit" onClick={onSubmit}>
             SKICKA
           </button>
         </form>
