@@ -10,9 +10,12 @@ const ContactForm = ({ isOpen, onClose, onSubmit }) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_4t3454j", "template_ni0imaa", form.current, {
-        publicKey: "g3lRXYQqlKOkmc1vN",
-      })
+      .sendForm(
+        "service_4t3454j",
+        "template_ni0imaa",
+        form.current,
+        "g3lRXYQqlKOkmc1vN"
+      )
       .then(
         () => {
           console.log("SUCCESS!");
