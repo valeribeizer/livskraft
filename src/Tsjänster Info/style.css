@@ -1,13 +1,10 @@
 .tsInfo-container {
   position: relative;
-  /* background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/tsInfo-bg.png"); */
-  /* background-image: url("/tsInfo-bg.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 80%;
-  max-width: 900px;
-  height: 600px;
+  width: 80vw;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -55,11 +52,9 @@
 
 @media (max-width: 560px) {
   .tsInfo-container {
-    /* background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/tsInfo-bg-mb.png"); */
-    /* background-image: url("/tsInfo-bg-mb.png"); */
-    /* background-size: contain; */
-    height: 530px;
-    width: 340px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-size: 90vw 85vh;
   }
 
   .p-tsInfo {
