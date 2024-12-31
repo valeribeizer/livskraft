@@ -36,7 +36,7 @@
 @media (max-width: 560px) {
   .scs-msg-container {
     /* background-image: url("/Users/valeri.beizer/Desktop/Websites (work)/Livskraft/livskraft/public/tsInfo-bg-mb.png"); */
-    background-size: auto;
+    background-size: contain;
     height: 550px;
   }
 }
