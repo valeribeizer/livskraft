@@ -17,7 +17,7 @@ function App() {
         <Route path="/om-oss" element={<OmOss />} />
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/faq" element={<Faq />} />
-        <Route path="/tsjanster" element={<Tsjanster />} />
+        <Route path="/tjanster" element={<Tsjanster />} />
         <Route path="/forelasningar" element={<Forelasningar />} />
         <Route path="/priser" element={<Priser />} />
         <Route path="/blog" element={<Blog />} />
