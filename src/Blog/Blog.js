@@ -11,7 +11,7 @@ const Blog = () => {
     <div>
       <NavBar />
       <div className="blog-container">
-        <h1>BLOG</h1>
+        <h1>BLOGG</h1>
         {window.innerWidth > 560 ? (
           <div className="row">
             <div className="col-lg-6">

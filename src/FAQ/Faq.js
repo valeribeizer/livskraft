@@ -17,7 +17,7 @@ const Faq = () => {
       question:
         "Behöver jag ha med min läkemedelslista till en läkemedelsgenomgång?",
       answer:
-        "Ja, vi rekommenderar att du har en aktuell läkemedelslista för att göra genomgången så effektiv som möjligt. Du kan ladda ner din lista direkt från 1177.se genom att logga in och gå till “Läkemedelskollen”. Alternativt kan du få en utskrift av din läkemedelslista från ditt närmaste apotek – du kan enkelt ta en bild eller skanna in den för att ladda upp inför mötet. För receptfria mediciner och kosttillskott som du använder, kommer hälsoformuläret att innehålla en specifik fråga där du enkelt kan ange dessa. \n\nTeknisk lösning för uppladdning och formulär: \n\nFör att implementera detta på din webbplats behöver vi ett enkelt och GDPR-kompatibelt uppladdningsformulär som är kopplat till kundens konto. Din webbutvecklare kan använda en säker filuppladdningsfunktion tillsammans med hälsoformulärsfält som kunden fyller i direkt online.",
+        "Ja, vi rekommenderar att du har en aktuell läkemedelslista för att göra genomgången så effektiv som möjligt. Du kan ladda ner din lista direkt från 1177.se genom att logga in och gå till “Läkemedelskollen”. Alternativt kan du få en utskrift av din läkemedelslista från ditt närmaste apotek – du kan enkelt ta en bild eller skanna in den för att ladda upp inför mötet. För receptfria mediciner och kosttillskott som du använder, kommer hälsoformuläret att innehålla en specifik fråga där du enkelt kan ange dessa.",
     },
     {
       key: 3,
