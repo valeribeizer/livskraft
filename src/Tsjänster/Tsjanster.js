@@ -21,12 +21,12 @@ const Tsjanster = () => {
   ];
 
   const tsjansterArr_2 = [
-    {
-      src: "white_flower.png",
-      alt: "white_flower",
-      title: "Shoppen",
-      desc: "Skapa harmoni i ditt hem – beställ noga utvalda och hälsofrämjande favoriter",
-    },
+    // {
+    //   src: "white_flower.png",
+    //   alt: "white_flower",
+    //   title: "Shoppen",
+    //   desc: "Skapa harmoni i ditt hem – beställ noga utvalda och hälsofrämjande favoriter",
+    // },
     {
       src: "book.png",
       alt: "book",
@@ -47,10 +47,10 @@ const Tsjanster = () => {
   ];
 
   const tsInfoArr_2 = [
-    {
-      title: "Shoppen",
-      desc: "Utforska vårt sortiment av rökelser, teer och mer för att ta del av naturens kraft i hemmet.<ul>\n<li>Återförsäljning: Ett litet urval av rökelser, teer, honung, ljus, tinkturer som främjar avslappning och välmående.</li>\n<li>Second-hand-krukor för örter, ljusstakar och små förvaringsaskar, små tavlor (konst)</li></ul>",
-    },
+    // {
+    //   title: "Shoppen",
+    //   desc: "Utforska vårt sortiment av rökelser, teer och mer för att ta del av naturens kraft i hemmet.<ul>\n<li>Återförsäljning: Ett litet urval av rökelser, teer, honung, ljus, tinkturer som främjar avslappning och välmående.</li>\n<li>Second-hand-krukor för örter, ljusstakar och små förvaringsaskar, små tavlor (konst)</li></ul>",
+    // },
     {
       title: "Föreläsningar",
       desc: "Bjud in mig till er organisation för att ta del av inspirerande föreläsningar. Jag erbjuder en djupdykning i ämnen som berör naturliga hälsolösningar, apotekarens roll i vården och hållbar hälsa. Varje föreläsning är designad för att ge värdefulla insikter och praktiska verktyg som främjar hälsa och välmående. Dessutom finns det möjlighet att skräddarsy föreläsningarna efter specifika intressen och behov.",
