@@ -32,4 +32,8 @@
   .nav-link {
     font-size: 14px;
   }
+
+  .logo {
+    width: 40%;
+  }
 }
