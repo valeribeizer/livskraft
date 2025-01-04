@@ -82,7 +82,7 @@
 
 @media (max-width: 560px) {
   .priser-container {
-    padding: 15% 5%;
+    padding: 0 5% 5%;
   }
 
   .h2-priser {

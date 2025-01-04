@@ -29,7 +29,7 @@
 
 @media (max-width: 560px) {
   .ts-container {
-    padding: 15% 5%;
+    padding: 0 5% 5%;
   }
 
   .margin {

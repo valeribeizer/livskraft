@@ -21,7 +21,7 @@
 
 @media (max-width: 560px) {
   .om-oss-container {
-    padding: 15% 5%;
+    padding: 0 5% 5%;
   }
 
   .justify-content-col {

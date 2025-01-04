@@ -20,7 +20,7 @@
 
 @media (max-width: 560px) {
   .blog-container {
-    padding: 15% 5%;
+    padding: 0 5% 5%;
   }
 
   .img-blog {
