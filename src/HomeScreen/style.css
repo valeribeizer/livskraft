@@ -9,7 +9,6 @@
 
   .hs_img {
     width: 70%;
-    margin-top: 3%;
   }
 
   h1 {
@@ -21,6 +20,10 @@
     margin: auto;
     text-align: justify;
     font-family: "Montserrat", sans-serif;
+  }
+
+  .btn_hs {
+    margin-bottom: 6%;
   }
 }
 
