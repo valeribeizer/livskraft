@@ -9,6 +9,7 @@ import Forelasningar from "./Föreläsningar/Forelasningar";
 import Priser from "./Priser/Priser";
 import Blog from "./Blog/Blog";
 import Policy from "./Policy/Policy";
+import Shoppen from "./Shoppen/Shoppen";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/priser" element={<Priser />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/integritetspolicy" element={<Policy />} />
+        <Route path="/shoppen" element={<Shoppen />} />
       </Routes>
     </div>
   );
