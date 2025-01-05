@@ -1,16 +1,15 @@
 .modal-container {
   position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
+  padding: 8% 0;
+  background-size: 90vw 80vh;
   background-position: center;
   width: 80vw;
-  height: 80vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5%;
-  padding: 10px;
   overflow-y: auto;
 }
 
@@ -29,9 +28,17 @@
 }
 
 form {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
+  width: 90%;
+}
+
+.form-control::placeholder {
+  color: rgba(63, 59, 54, 0.5);
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+
+.form-check-label {
+  font-size: 12px;
 }
 
 label {
@@ -58,36 +65,28 @@ label {
   color: transparent;
 }
 
-.form-control::placeholder {
-  color: rgba(63, 59, 54, 0.5);
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-}
-
 .form-check-input {
   margin-top: 3%;
 }
 
-.form-check-label {
-  font-size: 14px;
-}
-
-@media (max-width: 560px) {
+@media (min-width: 1024px) {
   .modal-container {
-    padding-top: 8%;
-    padding-bottom: 8%;
-    background-size: 90vw 85vh;
+    height: 70vh;
+    background-size: 70vw 75vh;
+    padding: 3% 5%;
   }
 
   form {
-    width: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
   }
 
   .form-control::placeholder {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .form-check-label {
-    font-size: 12px;
+    font-size: 14px;
   }
 }

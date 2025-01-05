@@ -33,7 +33,7 @@ const ContactForm = ({ isOpen, onClose, onSubmit }) => {
         className="modal-container"
         style={{
           backgroundImage:
-            window.innerWidth > 560
+            window.innerWidth >= 1024
               ? "url('/tsInfo-bg.png')"
               : "url('/tsInfo-bg-mb.png')",
         }}
