@@ -12,9 +12,9 @@ const Blog = () => {
       <NavBar />
       <div className="blog-container">
         <h1>BLOGG</h1>
-        {window.innerWidth > 560 ? (
-          <div className="row">
-            <div className="col-lg-6">
+        {window.innerWidth > 1024 ? (
+          <div className="row" style={{ alignItems: "center" }}>
+            <div className="col-6" style={{ textAlign: "start" }}>
               <h3>
                 Apotekarens roll <br />
                 Del 1
@@ -22,7 +22,7 @@ const Blog = () => {
               <p className="p-blog">{blog}</p>
             </div>
 
-            <div className="col-lg-3">
+            <div className="col-3">
               <img
                 className="img-blog"
                 src="blog-img-1.png"
@@ -30,13 +30,13 @@ const Blog = () => {
                 loading="lazy"
               />
               <img
-                className="img-blog"
+                className="img-blog second"
                 src="blog-img-2.png"
                 alt="blog-img-2"
                 loading="lazy"
               />
             </div>
-            <div className="col-lg-3">
+            <div className="col-3">
               <img
                 className="img-blog"
                 src="blog-img-3.png"
@@ -46,16 +46,16 @@ const Blog = () => {
             </div>
           </div>
         ) : (
-          <div className="row">
-            <div className="col-lg-6">
+          <>
+            <div className="row">
               <h3>
                 Apotekarens roll <br />
                 Del 1
               </h3>
               <p className="p-blog">{blog}</p>
             </div>
-            <div className="row" style={{ paddingRight: "0" }}>
-              <div className="col-6">
+            <div className="row" style={{ alignItems: "center" }}>
+              <div className="col-6" style={{ textAlign: "end" }}>
                 <img
                   className="img-blog"
                   src="blog-img-1.png"
@@ -69,7 +69,7 @@ const Blog = () => {
                   loading="lazy"
                 />
               </div>
-              <div className="col-6">
+              <div className="col-6" style={{ textAlign: "start" }}>
                 <img
                   className="img-blog"
                   src="blog-img-3.png"
@@ -78,7 +78,7 @@ const Blog = () => {
                 />
               </div>
             </div>
-          </div>
+          </>
         )}
       </div>
       <Footer />
