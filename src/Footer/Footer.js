@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 import './style.css';
 
 const Footer = () => {
@@ -6,9 +7,12 @@ const Footer = () => {
 
     return (
       <div className="footer-container">
-        <a className="a-footer" href="https://drive.google.com/file/d/1J3ApEuyhO8ZOtemQYp3UhNgvuzdgfJVD/view?usp=sharing">
+        <Link
+          to="/integritetspolicy"
+          className="a-footer"
+        >
           integritetspolicy
-        </a>
+        </Link>
         <p className="p-footer">
           {currentYear}. All rights reserved | Designed and built with 🖤 by
           Valeryia Beizer

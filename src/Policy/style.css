@@ -1,0 +1,21 @@
+.policy-container {
+  padding: 0 5% 10%;
+}
+
+.h1-policy {
+  text-transform: uppercase;
+}
+
+.p-policy-1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  text-align: left;
+  font-size: 12px;
+}
+
+.p-policy {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  font-size: 14px;
+  white-space: pre-line;
+}
