@@ -1,5 +1,5 @@
 .om-oss-container {
-  padding: 5%;
+  padding: 0 5% 5%;
 }
 
 .om-oss-img {
@@ -11,24 +11,24 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.padding-col {
-  padding-right: 0;
-}
-
 .justify-content-col {
-  justify-content: end;
+  justify-content: center;
 }
 
-@media (max-width: 560px) {
-  .om-oss-container {
-    padding: 0 5% 5%;
-  }
+.padding-col {
+  padding: 0;
+}
 
-  .justify-content-col {
-    justify-content: center;
+@media (min-width: 1024px) {
+  .om-oss-container {
+    padding: 0 5%;
   }
 
   .padding-col {
-    padding: 0;
+    padding-right: 0;
+  }
+
+  .justify-content-col {
+    justify-content: end;
   }
 }

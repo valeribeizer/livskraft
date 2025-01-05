@@ -18,15 +18,6 @@ const Tsjanster = () => {
       title: "Hälsokonsultation med fokus på naturliga lösningar",
       desc: "Ta kontroll över din hälsa - Boka en hälsokonsultation",
     },
-  ];
-
-  const tsjansterArr_2 = [
-    // {
-    //   src: "white_flower.png",
-    //   alt: "white_flower",
-    //   title: "Shoppen",
-    //   desc: "Skapa harmoni i ditt hem – beställ noga utvalda och hälsofrämjande favoriter",
-    // },
     {
       src: "book.png",
       alt: "book",
@@ -44,13 +35,6 @@ const Tsjanster = () => {
       title: "Hälsokonsultation med fokus på naturliga lösningar",
       desc: "Denna tjänst är perfekt för dig som vill förbättra din hälsa utan att fokusera för mycket på läkemedel. Kanske har du redan gjort en läkemedelsgenomgång och vill nu ta ytterligare ett steg mot ett mer naturligt och hållbart välmående.<ul>\n<li>Användning av örter och naturliga lösningar: Få vägledning om hur du kan börja använda örter och andra naturliga lösningar som ett komplement till din livsstil.</li>\n<li>Personliga uppföljningar: Regelbunden kontakt för att följa upp dina framsteg kring motion och livsstilsförändringar, samt justera din hälsoplan baserat på dina mål.</li>\n<li>Specifik kostrådgivning: Skräddarsydda kostråd som hjälper dig att optimera din hälsa genom rätt näring och kostvanor.</li></ul>",
     },
-  ];
-
-  const tsInfoArr_2 = [
-    // {
-    //   title: "Shoppen",
-    //   desc: "Utforska vårt sortiment av rökelser, teer och mer för att ta del av naturens kraft i hemmet.<ul>\n<li>Återförsäljning: Ett litet urval av rökelser, teer, honung, ljus, tinkturer som främjar avslappning och välmående.</li>\n<li>Second-hand-krukor för örter, ljusstakar och små förvaringsaskar, små tavlor (konst)</li></ul>",
-    // },
     {
       title: "Föreläsningar",
       desc: "Bjud in mig till er organisation för att ta del av inspirerande föreläsningar. Jag erbjuder en djupdykning i ämnen som berör naturliga hälsolösningar, apotekarens roll i vården och hållbar hälsa. Varje föreläsning är designad för att ge värdefulla insikter och praktiska verktyg som främjar hälsa och välmående. Dessutom finns det möjlighet att skräddarsy föreläsningarna efter specifika intressen och behov.",
@@ -83,28 +67,9 @@ const Tsjanster = () => {
         <div className="row margin">
           {tsjansterArr_1.map(({ src, alt, title, desc }, index) => (
             <div
-              className="col-lg-6 col-sm-12"
+              className="col"
               key={index}
               onClick={() => handleBoxClick(tsInfoArr_1[index])}
-            >
-              <div className="row align">
-                <div className="col-4 align-1">
-                  <img className="ts-img" src={src} alt={alt} loading="lazy" />
-                </div>
-                <div className="col-8">
-                  <h2 className="h2-ts">{title}</h2>
-                  <p className="p-ts">{desc}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="row margin">
-          {tsjansterArr_2.map(({ src, alt, title, desc }, index) => (
-            <div
-              className="col-lg-6 col-sm-12"
-              key={index}
-              onClick={() => handleBoxClick(tsInfoArr_2[index])}
             >
               <div className="row align">
                 <div className="col-4 align-1">

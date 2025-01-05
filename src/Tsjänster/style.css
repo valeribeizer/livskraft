@@ -1,5 +1,5 @@
 .ts-container {
-  padding: 5%;
+  padding: 0 5% 5%;
 }
 
 .ts-img {
@@ -15,10 +15,6 @@
   text-align: justify;
 }
 
-.margin {
-  margin-top: 8%;
-}
-
 .align {
   align-items: center;
 }
@@ -27,13 +23,27 @@
   text-align: center;
 }
 
-@media (max-width: 560px) {
+.margin {
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  margin: 5% 0 5% 0;
+  gap: 50px;
+}
+
+@media (min-width: 1024px) {
   .ts-container {
-    padding: 0 5% 5%;
+    padding: 0 5%;
   }
 
   .margin {
-    margin-top: 50px;
-    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin: 5% auto 10%;
+  }
+
+  .ts-img {
+    width: 50%;
   }
 }
