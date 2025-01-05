@@ -1,19 +1,20 @@
 .kt-container {
-  padding: 0 5%;
+  padding: 0 5% 5%;
+}
+
+.kt-img {
+  width: 80%;
+  margin: 10% 0;
+}
+
+.p-kontakt {
+  font-size: 18px;
+  margin-bottom: 10%;
+  font-style: italic;
 }
 
 .kt-content {
   text-align: center;
-}
-
-.kt-img {
-  width: 30%;
-  margin-bottom: 2%;
-}
-
-.p-kontakt {
-  font-style: italic;
-  margin-bottom: 2%;
 }
 
 .a-kontakt {
@@ -21,18 +22,40 @@
   color: #3f3b36;
 }
 
-@media (max-width: 560px) {
-  .kt-container {
-    padding: 0 5% 5%;
-  }
+.insta-icon {
+  width: 8%;
+  margin-bottom: 10%;
+}
 
+@media (min-width: 748px) {
   .kt-img {
-    width: 100%;
-    margin: 15% 0;
+    width: 50%;
   }
 
   .p-kontakt {
     font-size: 20px;
-    margin-bottom: 15%;
+  }
+
+  .insta-icon {
+    width: 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .kt-container {
+    padding: 0 5%;
+  }
+
+  .kt-img {
+    width: 30%;
+    margin: 2% 0;
+  }
+
+  .p-kontakt {
+    margin-bottom: 2%;
+  }
+
+  .insta-icon {
+    width: 3%;
   }
 }
