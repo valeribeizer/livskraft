@@ -9,11 +9,25 @@ const Priser = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    centerMode: true,
-    className: "center",
-    centerPadding: "35px",
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 560,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const priser_card = [
@@ -77,7 +91,7 @@ const Priser = () => {
       <NavBar />
       <div className="priser-container">
         <h1>PRISER</h1>
-        {window.innerWidth > 560 ? (
+        {window.innerWidth > 1024 ? (
           <div>
             <div className="row">
               {priser_card.map(({ src, alt, title, desc }, index) => (

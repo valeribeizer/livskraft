@@ -1,5 +1,5 @@
 .priser-container {
-  padding: 0 5%;
+  padding: 0 5% 5%;
 }
 
 .card-container {
@@ -48,6 +48,11 @@
   width: 80%;
 }
 
+.h2-priser {
+  margin-top: 10%;
+  font-size: 18px;
+}
+
 .h3-priser {
   text-align: center;
   width: 85%;
@@ -64,8 +69,9 @@
 .p-priser {
   font-family: "Montserrat", sans-serif;
   text-align: justify;
-  width: 80%;
-  font-size: 15px;
+  width: 90%;
+  font-size: 13px;
+  margin: 5% 0 10%;
 }
 
 .row-priser {
@@ -78,19 +84,33 @@
   display: none !important;
 }
 
-@media (max-width: 560px) {
-  .priser-container {
-    padding: 0 5% 5%;
-  }
+.slick-list {
+  padding-left: 13%;
+}
 
-  .h2-priser {
-    margin-top: 10%;
-    font-size: 18px;
+@media (min-width: 768px) {
+  .slick-list {
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .priser-container {
+    padding: 0 5%;
   }
 
   .p-priser {
-    margin-top: 5%;
-    width: 90%;
-    font-size: 13px;
+    margin-top: 0;
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .slick-list {
+    padding-left: 3%;
+  }
+
+  .h2-priser {
+    margin-top: 0;
+    font-size: 22px;
   }
 }
