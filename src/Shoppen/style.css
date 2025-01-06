@@ -1,0 +1,112 @@
+.butik-container {
+  padding: 0 5% 15%;
+}
+
+.h1-butik {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.h2-butik {
+  text-align: right;
+  font-size: 20px;
+}
+
+.h22 {
+  text-align: left;
+  margin-top: 15%;
+}
+
+.h3-butik {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-align: right;
+}
+
+.h33 {
+  margin-top: 15%;
+}
+
+.p-butik {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+
+.p1 {
+  font-size: 12px;
+  text-align: justify;
+  margin-top: 15%;
+}
+
+@media (min-width: 768px) {
+  .butik-container {
+    padding: 0 5% 10%;
+  }
+
+  .h1-butik {
+    font-size: 28px;
+  }
+
+  .h2-butik {
+    font-size: 24px;
+  }
+
+  .h22 {
+    margin-top: 10%;
+  }
+
+  .h3-butik {
+    font-size: 20px;
+  }
+
+  .h33 {
+    margin-top: 10%;
+  }
+
+  .p-butik {
+    font-size: 16px;
+  }
+
+  .p1 {
+    font-size: 14px;
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .butik-container {
+    padding: 0 5% 5%;
+  }
+
+  .h1-butik {
+    font-size: 30px;
+  }
+
+  .h2-butik {
+    font-size: 26px;
+  }
+
+  .h22 {
+    margin-top: 5%;
+  }
+
+  .h3-butik {
+    font-size: 22px;
+  }
+
+  .h33 {
+    margin-top: 5%;
+  }
+
+  .p-butik {
+    font-size: 18px;
+  }
+
+  .p1 {
+    font-size: 14px;
+    margin-top: 5%;
+  }
+}

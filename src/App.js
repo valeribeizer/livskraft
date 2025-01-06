@@ -24,7 +24,7 @@ function App() {
         <Route path="/priser" element={<Priser />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/integritetspolicy" element={<Policy />} />
-        <Route path="/shoppen" element={<Shoppen />} />
+        <Route path="/butik" element={<Shoppen />} />
       </Routes>
     </div>
   );
