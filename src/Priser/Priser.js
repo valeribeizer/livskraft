@@ -7,7 +7,7 @@ import Footer from "../Footer/Footer";
 const Priser = () => {
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
@@ -17,7 +17,6 @@ const Priser = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2,
         },
       },
       {
@@ -91,7 +90,7 @@ const Priser = () => {
       <NavBar />
       <div className="priser-container">
         <h1>PRISER</h1>
-        {window.innerWidth > 1024 ? (
+        {window.innerWidth > 1180 ? (
           <div>
             <div className="row">
               {priser_card.map(({ src, alt, title, desc }, index) => (

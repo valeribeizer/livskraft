@@ -22,6 +22,15 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
+.btn-link {
+  text-decoration: none;
+  color: #eae5db;
+}
+
+.btn-link:hover {
+  color: #eae5db;
+}
+
 @media (min-width: 768px) {
   .hs_img {
     width: 50%;

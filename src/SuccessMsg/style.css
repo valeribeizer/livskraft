@@ -1,4 +1,4 @@
-.scs-msg-container {
+/* .scs-msg-container {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,18 +23,22 @@
   align-items: center;
   overflow: auto;
   z-index: 1000;
+} */
+.sm-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
 }
 
 .h2-scs {
-  width: 60%;
+  width: 80%;
   text-align: center;
   text-transform: uppercase;
 }
 
-@media (max-width: 560px) {
-  .scs-msg-container {
-    padding-top: 8%;
-    padding-bottom: 8%;
-    background-size: 90vw 85vh;
+@media (min-width: 768px) {
+  .h2-scs {
+    width: 60%;
   }
 }

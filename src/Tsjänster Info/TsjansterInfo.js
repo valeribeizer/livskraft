@@ -29,10 +29,10 @@ const TsjansterInfo = ({ isOpen, content, onClose }) => {
         )}
         <button className="btn_main">
           <Link
-            to="/kontakt"
-            style={{ color: "#eae5db", textDecoration: "none" }}
+            to="/fa-stod"
+            className="btn-link"
           >
-            SKICKA BOKNINGSFÖRFRÅGAN
+            FÅ STÖD
           </Link>
         </button>
       </div>

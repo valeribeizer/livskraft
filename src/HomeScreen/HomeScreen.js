@@ -1,31 +1,32 @@
 import React, { useState } from "react";
 import NavBar from "../NavBar/NavBar";
 import "./style.css";
-import ContactForm from "../СontactForm/ContactForm";
-import SuccessMsg from "../SuccessMsg/SuccessMsg";
+// import ContactForm from "../СontactForm/ContactForm";
+// import SuccessMsg from "../SuccessMsg/SuccessMsg";
 import Footer from "../Footer/Footer";
+import { Link } from "react-router";
 
 const HomeScreen = () => {
-  const [isContactModelOpen, setContactModelOpen] = useState(false);
-  const [isSuccessOpen, setIsSuccessOpen] = useState(false);
+//   const [isContactModelOpen, setContactModelOpen] = useState(false);
+//   const [isSuccessOpen, setIsSuccessOpen] = useState(false);
 
-  const handleClick = () => {
-    setContactModelOpen(true);
-  };
+//   const handleClick = () => {
+//     setContactModelOpen(true);
+//   };
 
-  const closeContactModel = () => {
-    setContactModelOpen(false);
-  };
+//   const closeContactModel = () => {
+//     setContactModelOpen(false);
+//   };
 
-  const handleSuccess = () => {
-    setContactModelOpen(false); 
-    setIsSuccessOpen(true); 
-    setTimeout(() => setIsSuccessOpen(false), 3000);
-  };
+//   const handleSuccess = () => {
+//     setContactModelOpen(false); 
+//     setIsSuccessOpen(true); 
+//     setTimeout(() => setIsSuccessOpen(false), 3000);
+//   };
 
-  const handleCloseSuccess = () => {
-    setIsSuccessOpen(false);
-  };
+//   const handleCloseSuccess = () => {
+//     setIsSuccessOpen(false);
+//   };
 
   return (
     <div>
@@ -44,18 +45,18 @@ const HomeScreen = () => {
           ställer jag mig kritisk till övertron på farmaka – jag vill skapa en
           väg till långsiktigt välmående med individen i fokus” - Eunice O.
         </p>
-        <button className="btn_main btn_hs" onClick={() => handleClick()}>
-          FÅ STÖD
+        <button className="btn_main btn_hs">
+          <Link to="/fa-stod" className="btn-link">FÅ STÖD</Link>
         </button>
       </div>
-      {isContactModelOpen && (
+      {/* {isContactModelOpen && (
         <ContactForm
           onSubmit={handleSuccess}
           onClose={closeContactModel}
           isOpen={isContactModelOpen}
         />
       )}
-      {isSuccessOpen && <SuccessMsg onClose={handleCloseSuccess} />}
+      {isSuccessOpen && <SuccessMsg onClose={handleCloseSuccess} />} */}
       <Footer />
     </div>
   );
