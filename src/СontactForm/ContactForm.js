@@ -134,7 +134,7 @@ const ContactForm = () => {
     <div>
       <NavBar />
       <div className="cf-container">
-        <h2>FÅ STÖD</h2>
+        <h1>FÅ STÖD</h1>
         <form className="needs-validation" ref={form} onSubmit={sendEmail}>
           <label for="validation-1" className="form-label">
             Namn och efternamn
