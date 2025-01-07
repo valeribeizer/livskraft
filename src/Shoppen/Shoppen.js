@@ -9,10 +9,6 @@ const Shoppen = () => {
       <NavBar />
       <div className="butik-container">
         <h1>BUTIK</h1>
-        <h1 className="h1-butik">Livskraft Butik</h1>
-        <h2 className="h2-butik">
-          Snart här för att skapa harmoni i ditt hem 🌿
-        </h2>
         <h3 className="h3-butik">
           Vi skapar just nu ett unikt sortiment som förenar balans, välmående
           och hållbarhet – för dig och ditt hem.
