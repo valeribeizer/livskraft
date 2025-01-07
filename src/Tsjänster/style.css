@@ -47,3 +47,17 @@
     width: 50%;
   }
 }
+
+@media (min-width: 1366px) {
+  .ts-img {
+    width: 30%;
+  }
+
+  .margin {
+    margin: 1% auto 10%;
+  }
+
+  .gap {
+    gap: 30px;
+  }
+}

@@ -69,3 +69,24 @@ h1 {
     margin-top: 3%;
   }
 }
+
+@media (min-width: 1366px) {
+  .hs_img {
+    width: 20%;
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin: 2% 0 1%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .btn_hs {
+    margin-top: 1%;
+    width: 40% !important;
+  }
+}

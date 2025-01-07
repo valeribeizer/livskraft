@@ -7,15 +7,15 @@ const Policy = () => {
   const policy = [
     {
       qw: "Vilka uppgifter samlar vi in?",
-      answ: "Vi samlar in följande typer av personuppgifter: \n\nKontaktinformation:\n- Namn, e-postadress och telefonnummer för att kunna kontakta dig och planera möten.\n\nHälsodata och livsstilsinformation:\n- Uppgifter om dina hälsomål, medicinsk bakgrund (exempelvis kroniska sjukdomar, läkemedel och eventuella biverkningar), kostvanor, träningsvanor och sömnproblem.\n\nBilagor:\n- Dokument som du väljer att ladda upp, exempelvis läkemedelslistor och labbresultat.\n\nStatistik:\n- Anonymiserad data från hälsoformulär och avslutade konsultationer för att analysera tjänsternas effektivitet påindivid- och samhällsnivå.",
+      answ: "Vi samlar in följande typer av personuppgifter: \n\nKontaktinformation:\n- Namn, e-postadress och telefonnummer för att kunna kontakta dig och planera möten.\n\nAllmän hälsorelaterad information\n- Uppgifter om dina mål för välmående och livsstil.\n\nBilagor (valfritt):\n- Dokument eller information som du väljer att dela frivilligt, exempelvis kostplaner eller andra underlag kopplade till din hälsa.\nStatistik (anonymiserad):\n- Vi kan samla in anonymiserad data för att analysera och förbättra våra tjänster. Denna data innehåller inga personliga identifierbara uppgifter.",
     },
     {
       qw: "Hur använder vi dina uppgifter?",
-      answ: "Vi behandlar dina personuppgifter för följande ändamål:\n\nTillhandahålla tjänster:\n- Genomföra läkemedelsgenomgångar och hälsokonsultationer baserade pådina behov.\n\nStatistik och tjänsteutveckling:\n- Skapa anonymiserad statistik för att utvärdera tjänsters effektivitet och förbättra vår verksamhet.\n\nKommunikation:\n- Kontakta dig för att boka eller följa upp konsultationer och besvara frågor.\n\nLagstadgade krav:\n- Dokumentera relevanta uppgifter enligt Patientlagen och annan tillämplig lagstiftning.",
+      answ: "Vi behandlar dina personuppgifter för följande ändamål:\n\nTillhandahålla friskvårdstjänster:\n- Ge råd om livsstil, kost och stresshantering baserat på dina behov och mål.\n- Förse dig med utbildning kring dina läkemedel, så att du kan diskutera dem vidare med din läkare.\n\nKommunikation::\n- SKontakta dig för att boka eller följa upp konsultationer och besvara frågor.\n\nTjänsteutveckling:\n- Analysera anonymiserad data för att förbättra våra tjänster.",
     },
     {
       qw: "Rättslig grund för behandling",
-      answ: "Vi behandlar dina personuppgifter baserat på:\n\nSamtycke: \n- Vi inhämtar ditt uttryckliga samtycke för att behandla dina uppgifter.\n\nLagkrav: \n- Vi följer Patientlagen (2014:821) och andra tillämpliga regler för att säkerställa en trygg och kvalitativ hantering av dina uppgifter.\n\nRiktlinjer från svenska myndigheter:\n- Vi följer Socialstyrelsens och Läkemedelsverkets riktlinjer där det är tillämpligt.",
+      answ: "Vi behandlar dina personuppgifter baserat på:\n\nSamtycke:\n- Vi inhämtar ditt uttryckliga samtycke för att behandla dina uppgifter.\n\nGDPR:\n- Vi följer dataskyddsförordningen (GDPR) för att skydda din integritet och behandla data ansvarsfullt.",
     },
     {
       qw: "Hur skyddar vi dina uppgifter?",
@@ -23,11 +23,11 @@ const Policy = () => {
     },
     {
       qw: "Hur länge sparar vi dina uppgifter?",
-      answ: "Personuppgifter:\n- Lagring sker endast sålänge det är nödvändigt för att uppfylla ändamålen med behandlingen. Uppgifter raderas inom 12 månader efter avslutad kontakt, om inte längre lagring krävs enligt lag.\n\nJournalföring:\n- Uppgifter som dokumenteras enligt Patientlagen sparas i minst 10 år. Journalen ska innehålla:\n1. Medicinsk bakgrund och relevanta diagnoser.\n2. Läkemedelsgenomgångar och rekommenderade åtgärder.\n3. Eventuella biverkningar och hur dessa har hanterats.\n4. Information om överenskomna åtgärder och hänvisningar till andra vårdgivare.\n5. Datum och signatur av ansvarig utförare.",
+      answ: "Personuppgifter:\n- Lagring sker endast sålänge det är nödvändigt för att uppfylla ändamålen med behandlingen. Uppgifter raderas inom 12 månader efter avslutad kontakt, om inte längre lagring krävs enligt lag.\n\nStatistik:\n- Anonymiserad data kan sparas längre för att analysera och förbättra tjänsterna.",
     },
     {
       qw: "Delning av uppgifter",
-      answ: "Vi delar inte dina personuppgifter med tredje part utan ditt uttryckliga samtycke, förutom:\n- Om det krävs enligt lag.\n- Vid begäran från dig att dela uppgifter med din vårdgivare.",
+      answ: "Vi delar inte dina personuppgifter med tredje part utan ditt uttryckliga samtycke, förutom:\n- Om det krävs enligt lag (t.ex. myndighetsbegäran).",
     },
     {
       qw: "Anpassningar och tillgänglighet",
@@ -35,7 +35,7 @@ const Policy = () => {
     },
     {
       qw: "Dina rättigheter",
-      answ: "Du har rätt att:\n- Begära tillgång till dina personuppgifter.\n- Begära rättelse av felaktiga eller ofullständiga uppgifter.\n- Begära radering av uppgifter som inte måste sparas enligt lag.\n- Återkalla ditt samtycke när som helst.\n- Invända mot eller begära begränsning av behandlingen.\n- Ta del av journalanteckningar och lämna synpunkter påvården i enlighet med svensk lag.\n\nFör att utöva dina rättigheter, kontakta oss på info@livskraft.eu.",
+      answ: "Du har rätt att:\n- Begära tillgång till dina personuppgifter.\n- Begära rättelse av felaktiga eller ofullständiga uppgifter.\n- Begära radering av uppgifter som inte längre är nödvändiga.\n- Återkalla ditt samtycke när som helst.\n\nFör att utöva dina rättigheter, kontakta oss på info@livskraft.eu.",
     },
     {
       qw: "Cookies och spårning",
@@ -51,8 +51,8 @@ const Policy = () => {
     <div>
       <NavBar />
       <div className="policy-container">
-        <h1 className="h1-policy">Integritetspolicy för Livskraft</h1>
-        <p className="p-policy-1">Senast uppdaterad: 29-December-2024</p>
+        <h1 className="h1-policy">Integritetspolicy</h1>
+        <p className="p-policy-1">Senast uppdaterad: 07-Januari-2025</p>
         <p className="p-policy">
           Din integritet är viktig för oss påLivskraft. Denna integritetspolicy
           beskriver hur vi samlar in, använder, lagrar och skyddar dina

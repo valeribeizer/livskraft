@@ -58,8 +58,8 @@
 
 @media (min-width: 1024px) {
   .tsInfo-container {
-    height: 55vh;
-    background-size: 70vw 60vh;
+    height: 70vh;
+    background-size: 70vw 75vh;
     padding: 3% 5%;
   }
 
@@ -68,6 +68,6 @@
   }
 
   .btn_main {
-    width: 50%;
+    width: 30%;
   }
 }

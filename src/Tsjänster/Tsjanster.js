@@ -64,7 +64,7 @@ const Tsjanster = () => {
       <NavBar />
       <div className="ts-container">
         <h1>TJÄNSTER</h1>
-        <div className="row margin">
+        <div className="row margin gap">
           {tsjansterArr_1.map(({ src, alt, title, desc }, index) => (
             <div
               className="col"
