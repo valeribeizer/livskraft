@@ -47,8 +47,8 @@
   }
 
   .kt-img {
-    width: 30%;
-    margin: 2% 0;
+    width: 20%;
+    margin: 1% 0 2%;
   }
 
   .p-kontakt {
@@ -56,6 +56,6 @@
   }
 
   .insta-icon {
-    width: 3%;
+    width: 2%;
   }
 }
