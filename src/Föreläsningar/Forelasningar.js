@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
-import { Link } from "react-router";
 
 const Forelasningar = () => {
   const forelasningarArr = [
