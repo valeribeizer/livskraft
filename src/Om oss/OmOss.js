@@ -11,7 +11,7 @@ const OmOss = () => {
         <div className="om-oss-container">
           <h1>OM OSS</h1>
           <div className="row">
-            <div className="col-lg-6 align-self-end">
+            <div className="col-lg-7 align-self-end">
               <p className="p-om-oss">
                 Välkommen till Livskraft – en plats där kunskap möter naturens
                 visdom. Här vill jag ge dig verktyg och insikter för att göra
@@ -34,7 +34,7 @@ const OmOss = () => {
                 </Link>
               </p>
             </div>
-            <div className="col-lg-6 d-flex justify-content-col padding-col">
+            <div className="col-lg-5 d-flex justify-content-col padding-col">
               <img
                 className="om-oss-img"
                 src="om-oss-img.png"
