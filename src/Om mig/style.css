@@ -1,0 +1,33 @@
+.om-container {
+  padding: 0 5% 10%;
+}
+
+.p-om {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+.p1-om {
+  text-align: justify;
+}
+
+.om-link {
+  color: #3f3b36;
+}
+
+.col-om-mig {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .om-container {
+    padding: 0 5% 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .col-om-mig {
+    align-items: center;
+  }
+}

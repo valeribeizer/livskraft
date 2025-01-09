@@ -22,7 +22,7 @@ const Blog = () => {
               <p className="p-blog">{blog}</p>
             </div>
 
-            <div className="col-3">
+            <div className="col-6 custom">
               <img
                 className="img-blog"
                 src="blog-img-1.png"
@@ -33,14 +33,6 @@ const Blog = () => {
                 className="img-blog second"
                 src="blog-img-2.png"
                 alt="blog-img-2"
-                loading="lazy"
-              />
-            </div>
-            <div className="col-3">
-              <img
-                className="img-blog"
-                src="blog-img-3.png"
-                alt="blog-img-3"
                 loading="lazy"
               />
             </div>
@@ -55,7 +47,6 @@ const Blog = () => {
               <p className="p-blog">{blog}</p>
             </div>
             <div className="row" style={{ alignItems: "center" }}>
-              <div className="col-6" style={{ textAlign: "end" }}>
                 <img
                   className="img-blog"
                   src="blog-img-1.png"
@@ -63,20 +54,11 @@ const Blog = () => {
                   loading="lazy"
                 />
                 <img
-                  className="img-blog second"
+                  className="img-blog"
                   src="blog-img-2.png"
                   alt="blog-img-2"
                   loading="lazy"
                 />
-              </div>
-              <div className="col-6" style={{ textAlign: "start" }}>
-                <img
-                  className="img-blog"
-                  src="blog-img-3.png"
-                  alt="blog-img-3"
-                  loading="lazy"
-                />
-              </div>
             </div>
           </>
         )}

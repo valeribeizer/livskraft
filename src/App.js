@@ -12,6 +12,7 @@ import Policy from "./Policy/Policy";
 import Shoppen from "./Shoppen/Shoppen";
 import ContactForm from "./СontactForm/ContactForm";
 import SuccessMsg from "./SuccessMsg/SuccessMsg";
+import OmMig from "./Om mig/OmMig";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/butik" element={<Shoppen />} />
         <Route path="/fa-stod" element={<ContactForm />} />
         <Route path="/skickad" element={<SuccessMsg />} />
+        <Route path="/om-mig" element={<OmMig />} />
       </Routes>
     </div>
   );

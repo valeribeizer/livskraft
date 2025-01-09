@@ -3,7 +3,7 @@
 }
 
 .img-blog {
-  width: 110%;
+  width: 50%;
 }
 
 .col-6 {
@@ -26,10 +26,6 @@
 }
 
 @media (min-width: 768px) {
-  .img-blog {
-    width: 80%;
-  }
-
   .p-blog {
     margin-top: 5%;
   }
@@ -41,6 +37,22 @@
   }
 
   .col-6 {
+    display: flex;
     align-items: flex-start;
+  }
+
+  .img-blog {
+    width: 70%;
+  }
+
+  .custom {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1366px) {
+  .img-blog {
+    width: 50%;
   }
 }

@@ -7,7 +7,7 @@ const NavBar = () => {
     <>
       <div className="navbar navbar-light bg-light d-none d-lg-block">
         <div className="container text-center">
-          <Link to='/' className="navbar-brand mx-auto">
+          <Link to="/" className="navbar-brand mx-auto">
             <img className="logo" src="logo_nav.png" alt="logo" />
           </Link>
         </div>
@@ -15,7 +15,7 @@ const NavBar = () => {
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          <Link to='/' className="navbar-brand mx-auto d-lg-none">
+          <Link to="/" className="navbar-brand mx-auto d-lg-none">
             <img className="logo" src="logo_nav.png" alt="logo" />
           </Link>
           <button
@@ -30,7 +30,7 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav w-100 justify-content-between">
+            <ul className="navbar-nav w-100 justify-content-evenly">
               <li className="nav-item">
                 <Link to="/om-oss" className="nav-link">
                   OM OSS
@@ -66,6 +66,11 @@ const NavBar = () => {
                   BLOGG
                 </Link>
               </li>
+              {/* <li className="nav-item">
+                <Link to="/" className="nav-link">
+                  SW/ENG
+                </Link>
+              </li> */}
             </ul>
           </div>
         </div>
