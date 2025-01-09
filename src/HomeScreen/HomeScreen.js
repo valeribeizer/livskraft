@@ -16,13 +16,13 @@ const HomeScreen = () => {
           loading="lazy"
         />
         <h1 className="h1-hs">
-          Är du redo att få svar på dina frågor om hälsa och välmående?
+          Behöver du hjälp att förstå dina läkemedel bättre?
         </h1>
         <p className="p-hs">
-          I en tid där hälsa ofta känns som ett mysterium, erbjuder Livskraft en
-          plats för klarhet. Som legitimerad apotekare drivs jag av en passion
-          för att ge dig verktyg och kunskap att göra medvetna val om din hälsa
-          och ditt välbefinnande.
+          I en tid där hälsa ofta känns som ett mysterium erbjuder Livskraft en
+          plats för klarhet. Som legitimerad apotekare brinner jag för att ge
+          dig verktyg och kunskap att göra medvetna val om din hälsa och ditt
+          välbefinnande.
         </p>
         <button className="btn_main btn_hs">
           <Link to="/fa-stod" className="btn-link">

@@ -22,24 +22,14 @@ const Forelasningar = () => {
       key: 3,
     },
     {
-      name: "“Fler piller, fler problem? Varför vården behöver samarbeta bättre”",
-      desc: "En ärlig syn på varför vården inte alltid fungerar som den borde och hur ett bättre samarbete kan gynna alla.",
-      key: 4,
-    },
-    {
       name: "“Läkemedelsgenomgång för dummies – bli klok på dina piller”",
       desc: "En djupdykning i läkemedelsgenomgångar, läkemedelsoptimering och hur rätt justeringar kan göra stor skillnad.",
-      key: 5,
+      key: 4,
     },
     {
       name: "“Livskraft: Från frustration till vision”",
       desc: "Din resa till att starta Livskraft och ditt mål att sätta långsiktig hälsa och naturliga lösningar i centrum.",
-      key: 6,
-    },
-    {
-      name: "“Läkemedel – när bra inte alltid är bäst”",
-      desc: "En lektion i läkemedelsinteraktioner och biverkningar, samt praktiska råd för att hålla koll på sin behandling.",
-      key: 7,
+      key: 5,
     },
   ];
 
@@ -76,14 +66,6 @@ const Forelasningar = () => {
           ))}
         </div>
       </div>
-      <button className="btn_main">
-        <Link
-          to="/kontakt"
-          style={{ color: "#eae5db", textDecoration: "none" }}
-        >
-          SKICKA BOKNINGSFÖRFRÅGAN
-        </Link>
-      </button>
       <Footer />
     </div>
   );

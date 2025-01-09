@@ -70,7 +70,7 @@
   font-family: "Montserrat", sans-serif;
   text-align: justify;
   width: 90%;
-  font-size: 13px;
+  font-size: 12px;
   margin: 5% 0 10%;
 }
 
@@ -102,7 +102,7 @@
   .p-priser {
     margin-top: 0;
     width: 80%;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .slick-list {
