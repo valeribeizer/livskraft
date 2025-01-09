@@ -1,11 +1,11 @@
 .tsInfo-container {
   position: relative;
-  background-repeat: no-repeat;
-  background-size: 90vw 80vh;
+  background-color: #eae5db;
   background-position: center;
-  padding: 8% 0;
+  border-radius: 20px;
+  padding: 8%;
   width: 80vw;
-  height: 75vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -36,12 +36,12 @@
 }
 
 .btn_main {
-  width: 80%;
+  width: 70%;
   font-size: 12px;
+  margin-bottom: 0;
 }
 
 .tsInfo-container h2 {
-  margin: 10px 0;
   text-align: center;
   text-transform: uppercase;
   width: 90%;
@@ -52,15 +52,10 @@
   text-align: center;
 }
 
-.btn_main {
-  width: 70%;
-}
-
 @media (min-width: 1024px) {
   .tsInfo-container {
-    height: 70vh;
-    background-size: 70vw 75vh;
-    padding: 3% 5%;
+    height: 50vh;
+    padding: 3%;
   }
 
   .p-tsInfo {

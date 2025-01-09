@@ -10,13 +10,13 @@ const Tsjanster = () => {
       src: "jar.png",
       alt: "jar",
       title: "Läkemedelsgenomgång",
-      desc: "Är du osäker på dina läkemedel? Få en skräddarsydd läkemedelsanalys och en plan för bättre hälsa",
+      desc: "Känner du dig osäker på dina läkemedel? Få insikt och trygghet genom en genomgång som är anpassad efter dina behov",
     },
     {
       src: "flower_heart.png",
       alt: "flower_heart",
       title: "Hälsokonsultation med fokus på naturliga lösningar",
-      desc: "Ta kontroll över din hälsa - Boka en hälsokonsultation",
+      desc: "Utforska vägar till bättre balans och välmående genom kost, livsstil och naturliga alternativ. Ta kontroll över din hälsa – boka en hälsokonsultation idag!",
     },
     {
       src: "book.png",
@@ -29,18 +29,18 @@ const Tsjanster = () => {
   const tsInfoArr_1 = [
     {
       title: "Läkemedelsgenomgång",
-      desc: "<ul><li>Gratis första möte (30 minuter): Online eller via telefon för att diskutera dina hälsomål och identifiera vad som är viktigast för dig.</li>\n<li>Genomgång av dina läkemedel: Vi går igenom de läkemedel som känns mest relevanta för dig – de du har frågor kring eller vill veta mer om. Du bestämmer vad vi fokuserar på, så att vi undviker onödig genomgång av läkemedel du redan känner dig trygg med.</li>\n<li>För- och nackdelar med din behandling: Vi diskuterar fördelar, risker och möjliga alternativa behandlingar för dina utvalda läkemedel.</li>\n<li>Anpassade råd för att optimera din behandling: Få personliga råd som är anpassade till din situation och dina mål, och som du kan ta vidare till din läkare.</li>\n<li>Skriftlig sammanfattning: Efter genomgången får du en skriftlig sammanfattning med tydlig information om dina läkemedel – inklusive indikationer, för- och nackdelar samt personliga tips.</li></ul>",
+      desc: "<ul><li>Gratis första möte (30 minuter): Online eller via telefon, där vi diskuterar dina hälsomål och vad som är viktigast för dig.</li>\n<li>Genomgång av dina läkemedel: Tillsammans går vi igenom de läkemedel som du vill veta mer om eller har frågor kring. Du bestämmer fokus, och vi lägger tid på det som känns mest relevant för dig.</li>\n<li>För- och nackdelar med din behandling: Vi går igenom fördelar, möjliga risker och andra alternativ som kan vara värda att diskutera med din läkare.</li>\n<li>Anpassade råd och stöd: Få anpassade insikter och förslag som stödjer dina hälsomål och hjälper dig i dialogen med din läkare.</li>\n<li>Skriftlig sammanfattning: Efter genomgången får du en tydlig och strukturerad sammanställning med information om dina läkemedel – inklusive indikationer, för- och nackdelar samt personliga tips.</li></ul>",
     },
     {
       title: "Hälsokonsultation med fokus på naturliga lösningar",
-      desc: "Denna tjänst är perfekt för dig som vill förbättra din hälsa utan att fokusera för mycket på läkemedel. Kanske har du redan gjort en läkemedelsgenomgång och vill nu ta ytterligare ett steg mot ett mer naturligt och hållbart välmående.<ul>\n<li>Användning av örter och naturliga lösningar: Få vägledning om hur du kan börja använda örter och andra naturliga lösningar som ett komplement till din livsstil.</li>\n<li>Personliga uppföljningar: Regelbunden kontakt för att följa upp dina framsteg kring motion och livsstilsförändringar, samt justera din hälsoplan baserat på dina mål.</li>\n<li>Specifik kostrådgivning: Skräddarsydda kostråd som hjälper dig att optimera din hälsa genom rätt näring och kostvanor.</li></ul>",
+      desc: "Denna tjänst är perfekt för dig som vill förbättra din hälsa med ett holistiskt och naturligt fokus. Kanske har du redan gjort en läkemedelsgenomgång och vill nu ta nästa steg mot ett mer hållbart välmående. Här får du stöd och inspiration att göra medvetna val för en balanserad livsstil.<ul>\n<li>Utforska örter och naturliga lösningar: Få vägledning om hur du kan använda örter och andra naturliga alternativ som en del av din vardag, anpassat efter dina behov.</li>\n<li>Personliga uppföljningar: Regelbunden kontakt för att följa upp dina framsteg inom motion, kost och andra livsstilsförändringar, med justeringar baserade på dina mål och preferenser.</li>\n<li>Skräddarsydd kostrådgivning: Få individuellt anpassade kostråd som hjälper dig att stärka din hälsa genom rätt näring och hållbara matvanor.</li></ul>",
     },
     {
       title: "Föreläsningar",
-      desc: "Bjud in mig till er organisation för att ta del av inspirerande föreläsningar. Jag erbjuder en djupdykning i ämnen som berör naturliga hälsolösningar, apotekarens roll i vården och hållbar hälsa. Varje föreläsning är designad för att ge värdefulla insikter och praktiska verktyg som främjar hälsa och välmående. Dessutom finns det möjlighet att skräddarsy föreläsningarna efter specifika intressen och behov.",
+      desc: "Bjud in mig till er organisation för inspirerande och informativa föreläsningar. Varje föreläsning är utformad för att ge insikter och praktiska verktyg som kan användas för att förbättra välmående och inspirera till medvetna val. Föreläsningarna kan även skräddarsys för att passa just era behov och intressen.",
       link: {
         to: "/forelasningar",
-        text: "Bekanta dig med listan över föreläsningar",
+        text: "Utforska listan över mina föreläsningar här",
         className: "link-tsInfo",
       },
     },

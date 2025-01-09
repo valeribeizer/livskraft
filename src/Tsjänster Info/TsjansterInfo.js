@@ -9,12 +9,6 @@ const TsjansterInfo = ({ isOpen, content, onClose }) => {
     <div className="overlay" onClick={onClose}>
       <div
         className="tsInfo-container"
-        style={{
-          backgroundImage:
-            window.innerWidth >= 1024
-              ? "url('/tsInfo-bg.png')"
-              : "url('/tsInfo-bg-mb.png')",
-        }}
         onClick={(e) => e.stopPropagation()}
       >
         <h2>{content.title}</h2>
