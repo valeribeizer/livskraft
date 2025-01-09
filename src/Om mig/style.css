@@ -20,6 +20,10 @@
   justify-content: center;
 }
 
+.om-mig-img {
+  border-radius: 10px;
+}
+
 @media (min-width: 768px) {
   .om-container {
     padding: 0 5% 5%;
