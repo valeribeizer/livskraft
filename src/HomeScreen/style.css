@@ -15,6 +15,11 @@ h1 {
   margin: 5% 0;
 }
 
+.h1-hs {
+  text-transform: uppercase;
+  width: 90%;
+}
+
 .p-hs {
   width: 90%;
   margin: auto;
@@ -41,9 +46,17 @@ h1 {
     margin: 8% 0;
   }
 
+  .h1-hs {
+    width: 70%;
+  }
+
   .p-hs {
     width: 70%;
     margin: auto;
+  }
+
+  .btn_hs {
+    margin-top: 5%;
   }
 }
 
@@ -59,6 +72,10 @@ h1 {
 
   h1 {
     margin: 2% 0;
+  }
+
+  .h1-hs {
+    width: 60%;
   }
 
   .p-hs {
