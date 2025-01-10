@@ -48,6 +48,6 @@
 @supports (-webkit-appearance: none) and (display: flex) {
   .navbar-brand {
     left: 50%;
-    transform: translateX(-50%); 
+    /* transform: translateX(-50%);  */
   }
 }
