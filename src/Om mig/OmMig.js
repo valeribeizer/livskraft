@@ -72,11 +72,7 @@ const OmMig = () => {
                 kontroll över din egen hälsoresa.
               </p>
               <p className="p1-om">
-                Utforska mina
-                <Link to="/tjanster" className="om-link">
-                   tjänster 
-                </Link>
-                här och ta första steget mot en hållbar hälsa.
+                Utforska mina <Link to="/tjanster" className="om-link">tjänster</Link> här och ta första steget mot en hållbar hälsa.
               </p>
             </div>
           </div>
@@ -109,11 +105,7 @@ const OmMig = () => {
                 kontroll över din egen hälsoresa.
               </p>
               <p className="p1-om">
-                Utforska mina
-                <Link to="/tjanster" className="om-link">
-                  tjänster
-                </Link>
-                här och ta första steget mot en hållbar hälsa.
+                Utforska mina <Link to="/tjanster" className="om-link">tjänster</Link> här och ta första steget mot en hållbar hälsa.
               </p>
             </div>
             <div className="col-12 col-lg-4 col-om-mig-1">
