@@ -36,7 +36,7 @@ const Priser = () => {
       alt: "pris-img-1",
       title: "Läkemedelsgenomgång",
       desc: "För dig som vill få en djupare förståelse för din medicinering och skapa en trygg grund för din hälsa. Tjänsten inleds med ett grundligt möte (60 min) där vi går igenom syfte, dosering samt för- och nackdelar med dina läkemedel utifrån dina frågor och behov. Efter mötet får du en skriftlig sammanställning som hjälper dig att förstå din medicinering och som kan användas i dialogen med din läkare – en värdefull resurs för din hälsoresa.",
-      price: "fr 2200 sek",
+      price: "frå 2200 sek",
     },
     {
       key: 2,
@@ -44,7 +44,7 @@ const Priser = () => {
       alt: "pris-img-2",
       title: "Hälsokonsultation med fokus på naturliga lösningar",
       desc: "Utforska naturliga metoder för att stärka din hälsa på ett hållbart sätt. Under denna individuella konsultation (60 min) diskuterar vi hur kost, livsstilsförändringar och örter kan bli en del av din vardag för att komplettera din hälsorutin. Du får en anpassad plan med vägledning och inspiration, utformad för att stötta ditt välmående och dina långsiktiga mål.",
-      price: "fr 1500 sek",
+      price: "från 1500 sek",
     },
     {
       key: 3,
@@ -52,7 +52,7 @@ const Priser = () => {
       alt: "pris-img-3",
       title: "Uppföljande konsultation",
       desc: "Ett uppföljande möte (45 min) för att utvärdera dina framsteg och justera din hälsoplan. Med regelbunden uppföljning får du stöd och vägledning för att skapa hållbara förändringar som passar dina behov och mål.",
-      price: "fr 1000 sek",
+      price: "från 1000 sek",
     },
     {
       key: 4,
@@ -60,22 +60,22 @@ const Priser = () => {
       alt: "pris-img-4",
       title: "Föreläsningar och Workshops",
       desc: "Inspirerande föreläsningar och workshops som ger insikter, väcker nyfikenhet och erbjuder praktiska verktyg för att främja hållbar hälsa och välmående. Välj bland befintliga teman eller låt oss skapa något skräddarsytt för just din organisation. ",
-      price: "fr 6500 sek",
+      price: "från 6500 sek",
     },
   ];
 
   const priser = [
     {
-      price: "fr 1800 sek",
+      price: "från 1800 sek",
     },
     {
-      price: "fr 1200 sek",
+      price: "från 1200 sek",
     },
     {
-      price: "fr 800 sek",
+      price: "från 800 sek",
     },
     {
-      price: "fr 5700 sek",
+      price: "från 5700 sek",
     },
   ];
 

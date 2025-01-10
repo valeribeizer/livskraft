@@ -15,8 +15,15 @@
 }
 
 .navbar {
+  display: flex;
+  align-items: center;
   background-color: #eae5db !important;
   --bs-navbar-toggler-focus-width: 0.05rem;
+}
+
+.navbar-brand {
+  margin: 0 auto; 
+  text-align: center;
 }
 
 .navbar-toggler-icon {
@@ -35,5 +42,11 @@
 
   .logo {
     width: 50%;
+  }
+}
+
+@supports (-webkit-appearance: none) {
+  .navbar-brand {
+    transform: translateX(0); 
   }
 }

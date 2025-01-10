@@ -6,8 +6,8 @@ const NavBar = () => {
   return (
     <>
       <div className="navbar navbar-light bg-light d-none d-lg-block">
-        <div className="container text-center">
-          <Link to="/" className="navbar-brand mx-auto">
+        <div className="container">
+          <Link to="/" className="navbar-brand">
             <img className="logo" src="logo_nav.png" alt="logo" />
           </Link>
         </div>
@@ -15,7 +15,7 @@ const NavBar = () => {
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          <Link to="/" className="navbar-brand mx-auto d-lg-none">
+          <Link to="/" className="navbar-brand d-lg-none">
             <img className="logo" src="logo_nav.png" alt="logo" />
           </Link>
           <button
@@ -30,7 +30,7 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav w-100 justify-content-evenly">
+            <ul className="navbar-nav w-100 justify-content-evenly" style={{ textAlign: 'right' }}>
               <li className="nav-item">
                 <Link to="/om-oss" className="nav-link">
                   OM OSS

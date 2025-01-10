@@ -10,7 +10,7 @@ const Tsjanster = () => {
       src: "jar.png",
       alt: "jar",
       title: "Läkemedelsgenomgång",
-      desc: "Känner du dig osäker på dina läkemedel? Få insikt och trygghet genom en genomgång som är anpassad efter dina behov",
+      desc: "Känner du dig osäker på dina läkemedel? Få insikt och trygghet genom en genomgång som är anpassad efter dina behov.",
     },
     {
       src: "flower_heart.png",
@@ -22,7 +22,7 @@ const Tsjanster = () => {
       src: "book.png",
       alt: "book",
       title: "Föreläsningar",
-      desc: "Boka en föreläsning för ditt företag eller organisation",
+      desc: "Boka en föreläsning för ditt företag eller organisation.",
     },
   ];
 

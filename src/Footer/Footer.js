@@ -11,7 +11,7 @@ const Footer = () => {
           to="/integritetspolicy"
           className="a-footer"
         >
-          integritetspolicy
+          Integritetspolicy
         </Link>
         <p className="p-footer">
           {currentYear}. All rights reserved | Designed and built with 🖤 by
