@@ -7,7 +7,7 @@ const NavBar = () => {
     <>
       <div className="navbar navbar-light bg-light d-none d-lg-block">
         <div className="container">
-          <Link to="/" className="navbar-brand">
+          <Link to="/" className="navbar-brand mx-auto">
             <img className="logo" src="logo_nav.png" alt="logo" />
           </Link>
         </div>
@@ -15,7 +15,7 @@ const NavBar = () => {
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          <Link to="/" className="navbar-brand d-lg-none">
+          <Link to="/" className="navbar-brand mx-auto d-lg-none">
             <img className="logo" src="logo_nav.png" alt="logo" />
           </Link>
           <button

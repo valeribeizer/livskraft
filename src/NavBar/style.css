@@ -15,15 +15,8 @@
 }
 
 .navbar {
-  display: flex;
-  align-items: center;
   background-color: #eae5db !important;
   --bs-navbar-toggler-focus-width: 0.05rem;
-}
-
-.navbar-brand {
-  margin: 0 auto; 
-  text-align: center;
 }
 
 .navbar-toggler-icon {
@@ -45,9 +38,3 @@
   }
 }
 
-@supports (-webkit-appearance: none) and (display: flex) {
-  .navbar-brand {
-    left: 50%;
-    /* transform: translateX(-50%);  */
-  }
-}
