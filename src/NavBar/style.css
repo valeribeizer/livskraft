@@ -45,8 +45,9 @@
   }
 }
 
-@supports (-webkit-appearance: none) {
+@supports (-webkit-appearance: none) and (display: flex) {
   .navbar-brand {
-    transform: translateX(0); 
+    left: 50%;
+    transform: translateX(-50%); 
   }
 }
