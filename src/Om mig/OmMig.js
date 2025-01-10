@@ -74,7 +74,7 @@ const OmMig = () => {
               <p className="p1-om">
                 Utforska mina
                 <Link to="/tjanster" className="om-link">
-                  tjänster
+                   tjänster 
                 </Link>
                 här och ta första steget mot en hållbar hälsa.
               </p>
