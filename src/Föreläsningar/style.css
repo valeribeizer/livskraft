@@ -29,9 +29,17 @@
 }
 
 .btn_main {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 7% auto 10%;
   display: block;
+}
+
+.btn-link {
+  color: #eae5db;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #eae5db;
 }
 
 @media (max-width: 560px) {
@@ -41,5 +49,9 @@
 
   .accordion-button {
     font-size: 16px;
+  }
+
+  .btn_main {
+    margin-top: 12%;
   }
 }

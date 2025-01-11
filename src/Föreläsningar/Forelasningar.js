@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 
@@ -64,6 +65,9 @@ const Forelasningar = () => {
             </div>
           ))}
         </div>
+        <button className="btn_main">
+          <Link to="/fa-stod" className="btn-link">SKICKA BOKNINGFÖRFRÅGAN</Link>
+        </button>
       </div>
       <Footer />
     </div>

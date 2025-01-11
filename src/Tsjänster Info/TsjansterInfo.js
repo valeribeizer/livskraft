@@ -21,14 +21,6 @@ const TsjansterInfo = ({ isOpen, content, onClose }) => {
             {content.link.text}
           </Link>
         )}
-        <button className="btn_main">
-          <Link
-            to="/fa-stod"
-            className="btn-link"
-          >
-            FÅ STÖD
-          </Link>
-        </button>
       </div>
     </div>
   );
