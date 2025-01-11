@@ -29,7 +29,7 @@ const Shoppen = () => {
         </p>
         <div className="row row-cs">
           <div className="col-12 col-lg-4 col-md-5 col-cs">
-            <video className="video-sh" autoPlay loop>
+            <video className="video-sh" autoPlay controls loop>
               <source src="candles.mp4" type="video/mp4" />
             </video>
           </div>
@@ -49,7 +49,7 @@ const Shoppen = () => {
           Följ oss här och på sociala medier för att vara först med att få veta
           när butiken öppnar. Tack för att du är en del av vår resa – snart kan
           du fylla ditt hem med produkter som inspirerar till balans, glädje och
-          välbefinnande ⎔♥⎔
+          välbefinnande ⎔❦⎔
         </p>
       </div>
       <Footer />
