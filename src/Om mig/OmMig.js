@@ -14,28 +14,23 @@ const OmMig = () => {
           <div className="col-12 col-md-6 col-lg-8">
             <p className="p-om">
               Hälsa är en av livets största gåvor – och mysterier. Ibland kan vi
-              påverka den genom våra val, ibland är sjukdom bortom vår kontroll.
-              Men oavsett var vi börjar finns det alltid utrymme för läkning,
-              balans och förståelse.
+              påverka den genom våra val, medan andra gånger är sjukdom bortom
+              vår kontroll. Oavsett var vi befinner oss finns det alltid utrymme
+              för läkning, balans och förståelse.
               <br />
               <br />
               Jag heter Eunice och är legitimerad apotekare med en masterexamen
-              i farmaci. Under mina två år på apotek mötte jag många människor
-              med långa medicinlistor och små, men viktiga, frågor. Jag såg hur
-              vården ofta saknade tid för det viktigaste – samtalet. Där föddes
-              idén till Livskraft.
+              i farmaci. Under mina år på apotek mötte jag människor med långa
+              medicinlistor och många frågor. I en vårdapparat där tiden ofta
+              var knapp för de viktiga samtalen om hälsa växte min frustration -
+              men också en idé.
               <br />
               <br />
-              Idag arbetar jag med kliniska prövningar på ett läkemedelsföretag
-              och har fått en ännu djupare insikt i läkemedlens möjligheter och
-              begränsningar. Men det som driver mig är önskan att hjälpa på ett
-              mer hållbart och meningsfullt sätt. Livskraft är mitt sätt att
-              förena vetenskap och natur – att se hela människan och inte bara
-              symtomen. Som mamma till en tvååring vet jag hur viktigt det är
-              att hitta balans i livet och skapa utrymme för det som verkligen
-              betyder något. Den energin vill jag dela med dig här på Livskraft.
-              Min vision är att hjälpa dig hitta din väg till färre läkemedel,
-              mer välmående och en hälsa som håller – för livet.
+              Idag arbetar jag inom kliniska prövningar och har fördjupat min
+              förståelse för läkemedel och deras potential. Samtidigt är jag
+              övertygad om att läkemedel bara är en del av lösningen. Hållbar
+              hälsa kräver en helhetssyn och vägledning som gör hälsa både
+              begriplig och tillgänglig.
             </p>
           </div>
           <div className="col-12 col-md-6 col-lg-4 col-om-mig">
@@ -49,23 +44,19 @@ const OmMig = () => {
         </div>
         <div className="row row-custom custom-marg">
           <p className="p-om">
-            Min vision med Livskraft är att göra hälsan både förståelig och
-            tillgänglig. Genom att kombinera min expertis som apotekare med en
-            holistisk syn på välmående, erbjuder jag vägledning för att hjälpa
-            dig navigera dina läkemedel, utforska naturliga lösningar och skapa
-            en hållbar hälsa som håller över tid.
-            <br />
-            <br />
-            Livskraft handlar om att se hela människan – dina mål, utmaningar
-            och möjligheter – och ge dig verktygen att ta kontroll över din egen
-            hälsoresa.
+            Det är med önskan om att få hjälpa till på ett mer hållbart och
+            meningsfullt sätt som jag startade Livskraft. Genom att kombinera
+            min farmaceutiska expertis med en holistisk syn på välmående vill
+            jag ge dig verktygen att navigera dina läkemedel, utforska naturliga
+            lösningar och hitta balans.
           </p>
           <p className="p1-om">
-            Utforska mina{" "}
+            Om detta resonemang väcker något inom dig, är du varmt välkommen att
+            utforska mina{" "}
             <Link to="/tjanster" className="om-link">
               tjänster
             </Link>{" "}
-            här och ta första steget mot en hållbar hälsa.
+            .
           </p>
         </div>
       </div>
