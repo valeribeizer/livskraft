@@ -29,7 +29,7 @@ const Shoppen = () => {
         </p>
         <div className="row row-cs">
           <div className="col-12 col-lg-4 col-md-5 col-cs">
-            <video className="video-sh" autoPlay controls loop>
+            <video className="video-sh" autoPlay controls loop playsInline>
               <source src="candles.mp4" type="video/mp4" />
             </video>
           </div>
