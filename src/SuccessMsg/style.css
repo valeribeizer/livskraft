@@ -1,29 +1,3 @@
-/* .scs-msg-container {
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 70vw;
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow-y: auto;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: auto;
-  z-index: 1000;
-} */
 .sm-container {
   display: flex;
   align-items: center;
