@@ -66,7 +66,13 @@ const Forelasningar = () => {
           ))}
         </div>
         <button className="btn_main">
-          <Link to="/fa-stod" className="btn-link">BOKNINGFÖRFRÅGAN</Link>
+          <Link
+            to="/fa-stod"
+            className="btn-link"
+            state={{ source: "bokningsforfragan" }}
+          >
+            BOKNINGSFÖRFRÅGAN
+          </Link>
         </button>
       </div>
       <Footer />

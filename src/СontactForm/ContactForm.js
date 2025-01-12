@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { useLocation } from "react-router";
 import emailjs from "@emailjs/browser";
 import "./style.css";
 import NavBar from "../NavBar/NavBar";
@@ -7,6 +8,8 @@ import { Link } from "react-router";
 
 const ContactForm = () => {
   const form = useRef();
+  const location = useLocation();
+  const source = location.state?.source;
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -32,7 +35,11 @@ const ContactForm = () => {
     <div>
       <NavBar />
       <div className="cf-container">
-        <h1>FÅ STÖD</h1>
+        {source === 'bokningsforfragan' ? (
+          <h1>SKICKA BOKNINGFÖRFRÅGAN</h1>
+        ) : (
+          <h1>FÅ STÖD</h1>
+        )}
         <form className="needs-validation" ref={form} onSubmit={sendEmail}>
           <label for="validation-1" className="form-label">
             Namn och efternamn
@@ -115,7 +122,10 @@ const ContactForm = () => {
             </label>
           </div>
           <button className="btn_main" type="submit">
-            <Link to="/skickad" className="btn-link"> SKICKA</Link>
+            <Link to="/skickad" className="btn-link">
+              {" "}
+              SKICKA
+            </Link>
           </button>
         </form>
       </div>

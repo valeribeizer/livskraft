@@ -7,10 +7,7 @@ const TsjansterInfo = ({ isOpen, content, onClose }) => {
 
   return (
     <div className="overlay" onClick={onClose}>
-      <div
-        className="tsInfo-container"
-        onClick={(e) => e.stopPropagation()}
-      >
+      <div className="tsInfo-container" onClick={(e) => e.stopPropagation()}>
         <h2>{content.title}</h2>
         <div
           className="p-tsInfo"
@@ -23,7 +20,13 @@ const TsjansterInfo = ({ isOpen, content, onClose }) => {
         )}
         {content.key !== 2 && (
           <button className="btn_main">
-            <Link to="/fa-stod" className="btn-link">FÅ STÖD</Link>
+            <Link
+              to="/fa-stod"
+              className="btn-link"
+              state={{ source: "fa-stod" }}
+            >
+              FÅ STÖD
+            </Link>
           </button>
         )}
       </div>

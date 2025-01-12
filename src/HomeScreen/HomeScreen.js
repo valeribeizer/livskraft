@@ -25,7 +25,11 @@ const HomeScreen = () => {
           välbefinnande.
         </p>
         <button className="btn_main btn_hs">
-          <Link to="/fa-stod" className="btn-link">
+          <Link
+            to="/fa-stod"
+            className="btn-link"
+            state={{ source: "fa-stod" }}
+          >
             FÅ STÖD
           </Link>
         </button>

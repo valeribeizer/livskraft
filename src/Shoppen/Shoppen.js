@@ -45,7 +45,7 @@ const Shoppen = () => {
         </div>
 
         <h1 className="h1-butik h33">Håll dig uppdaterad!</h1>
-        <p className="p-butik" style={{ textAlign: "justify" }}>
+        <p className="p-butik" style={{ textAlign: "center" }}>
           Följ oss på{" "}
           <a
             className="a-butik"
@@ -55,7 +55,7 @@ const Shoppen = () => {
           >
             Instagram
           </a>{" "}
-          för att vara först med att få veta när butiken öppnar ⎔❦⎔
+          för att vara först med att få veta när butiken öppnar.
         </p>
       </div>
       <Footer />
