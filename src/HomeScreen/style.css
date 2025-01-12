@@ -56,7 +56,7 @@ h1 {
   }
 
   .btn_hs {
-    margin-top: 5%;
+    margin-top: 5% !important;
   }
 }
 
@@ -83,7 +83,7 @@ h1 {
   }
 
   .btn_hs {
-    margin-top: 3%;
+    margin-top: 3% !important;
   }
 }
 
@@ -103,7 +103,7 @@ h1 {
   }
 
   .btn_hs {
-    margin-top: 1%;
+    margin-top: 1% !important;
     width: 40% !important;
   }
 }
