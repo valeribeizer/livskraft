@@ -47,7 +47,12 @@ const Shoppen = () => {
         <h1 className="h1-butik h33">Håll dig uppdaterad!</h1>
         <p className="p-butik" style={{ textAlign: "justify" }}>
           Följ oss på{" "}
-          <a className="a-butik" href="https://www.instagram.com/livskraft.eu/" target="_blank">
+          <a
+            className="a-butik"
+            href="https://www.instagram.com/livskraft.eu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Instagram
           </a>{" "}
           för att vara först med att få veta när butiken öppnar ⎔❦⎔
