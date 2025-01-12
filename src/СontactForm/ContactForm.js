@@ -36,7 +36,7 @@ const ContactForm = () => {
       <NavBar />
       <div className="cf-container">
         {source === 'bokningsforfragan' ? (
-          <h1>SKICKA BOKNINGFÖRFRÅGAN</h1>
+          <h1>SKICKA BOKNINGSFÖRFRÅGAN</h1>
         ) : (
           <h1>FÅ STÖD</h1>
         )}
