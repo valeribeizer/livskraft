@@ -36,7 +36,7 @@ const Priser = () => {
       alt: "pris-img-1",
       title: "Läkemedelsgenomgång",
       desc: "För dig som vill få en djupare förståelse för din medicinering och skapa en trygg grund för din hälsa. Tjänsten inleds med ett grundligt möte (60 min) där vi går igenom syfte, dosering samt för- och nackdelar med dina läkemedel utifrån dina frågor och behov. Efter mötet får du en skriftlig sammanställning som hjälper dig att förstå din medicinering och som kan användas i dialogen med din läkare – en värdefull resurs för din hälsoresa.",
-      price: "frå 2200 sek",
+      price: "från 2200 sek",
     },
     {
       key: 2,

@@ -7,14 +7,11 @@ const Footer = () => {
 
     return (
       <div className="footer-container">
-        <Link
-          to="/integritetspolicy"
-          className="a-footer"
-        >
+        <Link to="/integritetspolicy" className="a-footer">
           Integritetspolicy
         </Link>
         <p className="p-footer">
-          {currentYear}. All rights reserved | Designed and built with 🖤 by
+          {currentYear}. All rights reserved | Designed and built with ♡ by
           Valeryia Beizer
         </p>
       </div>

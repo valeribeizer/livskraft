@@ -13,7 +13,7 @@ const Shoppen = () => {
           Vi skapar just nu ett unikt sortiment som förenar balans, välmående
           och hållbarhet – för dig och ditt hem.
         </h3>
-        <h2 className="h2-butik h22">Snart i vår butik:</h2>
+        <h2 className="h2-butik h22">Snart i butiken:</h2>
         <p className="p-butik">
           ❥ Naturliga favoriter: Rökelser, teer, honung, ljus och tinkturer –
           varsamt utvalda för att främja lugn, balans och harmoni i vardagen.
@@ -46,10 +46,11 @@ const Shoppen = () => {
 
         <h1 className="h1-butik h33">Håll dig uppdaterad!</h1>
         <p className="p-butik" style={{ textAlign: "justify" }}>
-          Följ oss här och på sociala medier för att vara först med att få veta
-          när butiken öppnar. Tack för att du är en del av vår resa – snart kan
-          du fylla ditt hem med produkter som inspirerar till balans, glädje och
-          välbefinnande ⎔❦⎔
+          Följ oss på{" "}
+          <a className="a-butik" href="https://www.instagram.com/livskraft.eu/" target="_blank">
+            Instagram
+          </a>{" "}
+          för att vara först med att få veta när butiken öppnar ⎔❦⎔
         </p>
       </div>
       <Footer />

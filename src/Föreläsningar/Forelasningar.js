@@ -66,7 +66,7 @@ const Forelasningar = () => {
           ))}
         </div>
         <button className="btn_main">
-          <Link to="/fa-stod" className="btn-link">SKICKA BOKNINGFÖRFRÅGAN</Link>
+          <Link to="/fa-stod" className="btn-link">BOKNINGFÖRFRÅGAN</Link>
         </button>
       </div>
       <Footer />

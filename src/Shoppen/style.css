@@ -26,7 +26,7 @@
 }
 
 .h33 {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .p-butik {
@@ -51,7 +51,13 @@
 
 .video-sh {
   border-radius: 10px;
-  width: 80%;
+  width: 100%;
+}
+
+.a-butik {
+  color: #3f3b36;
+  text-decoration: none;
+  font-family: "ITC Benguiat", serif;
 }
 
 @media (min-width: 768px) {
