@@ -50,11 +50,11 @@
   }
 
   .om-mig-img-1 {
-    width: 75%;
+    width: 100%;
   }
 
   .col-om-mig {
-    justify-content: end;
+    justify-content: center;
   }
 
   .row-custom {
@@ -62,17 +62,9 @@
     flex-direction: row;
     align-items: center;
   }
-
-  .custom-marg {
-    margin-top: 2%;
-  }
 }
 
 @media (min-width: 1024px) {
-  .om-mig-img-1 {
-    width: 70%;
-  }
-
   .p-om {
     font-size: 16px;
   }
@@ -80,8 +72,14 @@
   .p1-om {
     font-size: 16px;
   }
+}
 
+@media (min-width: 1180px) {
   .row-custom {
     align-items: flex-end;
+  }
+
+  .p1-om {
+    margin-bottom: 0;
   }
 }
