@@ -7,7 +7,7 @@ const Policy = () => {
   const policy = [
     {
       qw: "Vilka uppgifter samlar vi in?",
-      answ: "Vi samlar in följande typer av personuppgifter: \n\nKontaktinformation:\n- Namn, e-postadress och telefonnummer för att kunna kontakta dig och planera möten.\n\nAllmän hälsorelaterad information\n- Uppgifter om dina mål för välmående och livsstil.\n\nBilagor (valfritt):\n- Dokument eller information som du väljer att dela frivilligt, exempelvis kostplaner eller andra underlag kopplade till din hälsa.\nStatistik (anonymiserad):\n- Vi kan samla in anonymiserad data för att analysera och förbättra våra tjänster. Denna data innehåller inga personliga identifierbara uppgifter.",
+      answ: "Vi samlar in följande typer av personuppgifter: \n\nKontaktinformation:\n- Namn, e-postadress och telefonnummer för att kunna kontakta dig och planera möten.\n\nAllmän hälsorelaterad information\n- Uppgifter om dina mål för välmående och livsstil.\n\nBilagor (valfritt):\n- Dokument eller information som du väljer att dela frivilligt, exempelvis kostplaner eller andra underlag kopplade till din hälsa.\n\nStatistik (anonymiserad):\n- Vi kan samla in anonymiserad data för att analysera och förbättra våra tjänster. Denna data innehåller inga personliga identifierbara uppgifter.",
     },
     {
       qw: "Hur använder vi dina uppgifter?",
