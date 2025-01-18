@@ -6,7 +6,7 @@ import Kontakt from "./Kontakt/Kontakt";
 import Faq from "./FAQ/Faq";
 import Tsjanster from "./Tsjänster/Tsjanster";
 import Forelasningar from "./Föreläsningar/Forelasningar";
-import Priser from "./Priser/Priser";
+// import Priser from "./Priser/Priser";
 import Blog from "./Blog/Blog";
 import Policy from "./Policy/Policy";
 import Shoppen from "./Shoppen/Shoppen";
@@ -24,7 +24,7 @@ function App() {
         <Route path="/faq" element={<Faq />} />
         <Route path="/tjanster" element={<Tsjanster />} />
         <Route path="/forelasningar" element={<Forelasningar />} />
-        <Route path="/priser" element={<Priser />} />
+        {/* <Route path="/priser" element={<Priser />} /> */}
         <Route path="/blog" element={<Blog />} />
         <Route path="/integritetspolicy" element={<Policy />} />
         <Route path="/butik" element={<Shoppen />} />

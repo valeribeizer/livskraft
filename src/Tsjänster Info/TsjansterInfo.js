@@ -13,12 +13,17 @@ const TsjansterInfo = ({ isOpen, content, onClose }) => {
           className="p-tsInfo"
           dangerouslySetInnerHTML={{ __html: content.desc }}
         />
+        <p className="p-tsInfo-1">{content.pris}</p>
+        <p className="p-tsInfo" style={{ textAlign: "center", fontStyle: "italic" }}>
+          Kontakta mig gärna för mer information eller för att få en offert
+          anpassad efter dina behov.
+        </p>
         {content.link && (
           <Link to={content.link.to} className={content.link.className}>
             {content.link.text}
           </Link>
         )}
-        {content.key !== 2 && (
+        {/* {content.key !== 3 && (
           <button className="btn_main">
             <Link
               to="/fa-stod"
@@ -28,7 +33,7 @@ const TsjansterInfo = ({ isOpen, content, onClose }) => {
               FÅ STÖD
             </Link>
           </button>
-        )}
+        )} */}
       </div>
     </div>
   );

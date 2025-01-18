@@ -10,13 +10,18 @@ const Tsjanster = () => {
       src: "jar.png",
       alt: "jar",
       title: "Läkemedelsgenomgång",
-      desc: "Känner du dig osäker på dina läkemedel? Få insikt och trygghet genom en genomgång som är anpassad efter dina behov.",
+      desc: "Känner du dig osäker på dina läkemedel? Få insikt och trygghet genom en individuell genomgång anpassad efter dina behov.",
     },
     {
       src: "flower_heart.png",
       alt: "flower_heart",
       title: "Hälsokonsultation med fokus på naturliga lösningar",
-      desc: "Utforska vägar till bättre balans och välmående genom kost, livsstil och naturliga alternativ. Ta kontroll över din hälsa – boka en hälsokonsultation idag!",
+      desc: "Utforska vägar till bättre balans och välmående genom kost, livsstil och naturliga alternativ.",
+    },
+    {
+      src: "white_flower.png",
+      alt: "white_flower",
+      title: "Uppföljande konsultation",
     },
     {
       src: "book.png",
@@ -29,23 +34,32 @@ const Tsjanster = () => {
   const tsInfoArr_1 = [
     {
       title: "Läkemedelsgenomgång",
-      desc: "<ul><li>Gratis första möte (30 minuter): Online eller via telefon, där vi diskuterar dina hälsomål och vad som är viktigast för dig.</li>\n<li>Genomgång av dina läkemedel: Tillsammans går vi igenom de läkemedel som du vill veta mer om eller har frågor kring. Du bestämmer fokus, och vi lägger tid på det som känns mest relevant för dig.</li>\n<li>För- och nackdelar med din behandling: Vi går igenom fördelar, möjliga risker och andra alternativ som kan vara värda att diskutera med din läkare.</li>\n<li>Anpassade råd och stöd: Få anpassade insikter och förslag som stödjer dina hälsomål och hjälper dig i dialogen med din läkare.</li>\n<li>Skriftlig sammanfattning: Efter genomgången får du en tydlig och strukturerad sammanställning med information om dina läkemedel – inklusive indikationer, för- och nackdelar samt personliga tips.</li></ul>",
-      key: 0
+      desc: "<ul><li>Inledande samtal (30 minuter): Online eller via telefon, där vi diskuterar dina hälsomål och vad som är viktigast för dig.</li>\n<li>Genomgång av dina läkemedel (60 minuter): Vi går igenom de läkemedel du vill veta mer om, med fokus på det som känns mest relevant för dig.</li>\n<li>För- och nackdelar med din behandling: Få hjälp att förstå syftet med dina läkemedel, möjliga risker och alternativ att diskutera med din läkare.</li>\n<li>Skriftlig sammanställning: En tydlig rapport som ger överblick över dina läkemedel och fungerar som ett stöd i dialogen med din läkare.</li>\n<li>Uppföljande samtal (30 minuter): För att gå igenom framsteg och diskutera eventuella frågor eller justeringar.</li></ul>",
+      pris: "Pris: Från 2 200 SEK",
+      key: 0,
     },
     {
       title: "Hälsokonsultation med fokus på naturliga lösningar",
-      desc: "Denna tjänst är perfekt för dig som vill förbättra din hälsa med ett holistiskt och naturligt fokus. Kanske har du redan gjort en läkemedelsgenomgång och vill nu ta nästa steg mot ett mer hållbart välmående. Här får du stöd och inspiration att göra medvetna val för en balanserad livsstil.<ul>\n<li>Utforska örter och naturliga lösningar: Få vägledning om hur du kan använda örter och andra naturliga alternativ som en del av din vardag, anpassat efter dina behov.</li>\n<li>Personliga uppföljningar: Regelbunden kontakt för att följa upp dina framsteg inom motion, kost och andra livsstilsförändringar, med justeringar baserade på dina mål och preferenser.</li>\n<li>Skräddarsydd kostrådgivning: Få individuellt anpassade kostråd som hjälper dig att stärka din hälsa genom rätt näring och hållbara matvanor.</li></ul>",
-      key: 1
+      desc: "<ul>\n<li>Inledande samtal (30 minuter): Online eller via telefon, där vi diskuterar dina hälsomål och vad som är viktigast för dig..</li>\n<li>Skriftlig sammanställning: Efter konsultationen får du en personlig handlingsplan som sammanfattar rekommenderade livsstilsförändringar, kostråd och naturliga alternativ, anpassat efter dina specifika behov och mål.</li>\n<li>Uppföljande samtal (30 minuter): För att gå igenom framsteg och diskutera eventuella frågor eller justeringar.</li></ul>",
+      pris: "Pris: Från 1 500 SEK",
+      key: 1,
+    },
+    {
+      title: "Uppföljande konsultation",
+      desc: "Ett uppföljande möte för att utvärdera dina framsteg, justera din plan och ge fortsatt stöd på din hälsoresa. Perfekt för att säkerställa att förändringarna är hållbara och anpassade till dina mål.<ul>\n<li>Tid: 45-60 minuter</li>\n<li>Vi går igenom vad som fungerar bra, vad som kan justeras, och hur vi bäst stöttar dig i dina långsiktiga hälsomål.</li></ul>",
+      pris: "Pris: Från 1 000 SEK",
+      key: 2,
     },
     {
       title: "Föreläsningar",
-      desc: "Bjud in mig till er organisation för inspirerande och informativa föreläsningar. Varje föreläsning är utformad för att ge insikter och praktiska verktyg som kan användas för att förbättra välmående och inspirera till medvetna val. Föreläsningarna kan även skräddarsys för att passa just era behov och intressen.",
+      desc: "Bjud in mig till er organisation för inspirerande och informativa föreläsningar. Varje föreläsning är utformad för att ge insikter och praktiska verktyg som kan användas för att förbättra välmående och inspirera till medvetna val. Föreläsningarna kan även skräddarsys för att passa just era behov och intressen.\n\nPopulära teman:\n\n<ul><li>“Naturligtvis! Vägar till hälsa utan onödiga piller”</li>\n<li>“Rättigheter på apoteket – visste du att du har dem?”</li></ul>",
+      pris: "Pris: Från 6 500 SEK",
       link: {
         to: "/forelasningar",
         text: "Utforska listan över mina föreläsningar här",
         className: "link-tsInfo",
       },
-      key: 2
+      key: 3,
     },
   ];
 
@@ -70,7 +84,7 @@ const Tsjanster = () => {
         <div className="row margin gap">
           {tsjansterArr_1.map(({ src, alt, title, desc }, index) => (
             <div
-              className="col"
+              className="col col-lg-8"
               key={index}
               onClick={() => handleBoxClick(tsInfoArr_1[index])}
             >

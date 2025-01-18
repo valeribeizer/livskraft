@@ -8,19 +8,25 @@
 
 .h2-ts {
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 .p-ts {
   font-family: "Montserrat", sans-serif;
   text-align: justify;
+  margin-bottom: 0;
 }
 
 .align {
   align-items: center;
+  border: 1px solid #3f3b36;
+  border-radius: 20px;
+  padding: 5%;
 }
 
 .align-1 {
   text-align: center;
+  padding: 0;
 }
 
 .margin {
@@ -28,7 +34,13 @@
   align-items: center;
   width: 90vw;
   margin: 10% 0 5% 0;
-  gap: 50px;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .h2-ts {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1024px) {
