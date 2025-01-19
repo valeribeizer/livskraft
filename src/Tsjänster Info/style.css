@@ -43,6 +43,7 @@
   width: 70%;
   font-size: 12px;
   margin-bottom: 0;
+  min-height: 40px;
 }
 
 .tsInfo-container h2 {

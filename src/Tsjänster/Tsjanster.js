@@ -94,7 +94,7 @@ const Tsjanster = () => {
                 </div>
                 <div className="col-8">
                   <h2 className="h2-ts">{title}</h2>
-                  <p className="p-ts">{desc}</p>
+                  {/* <p className="p-ts">{desc}</p> */}
                 </div>
               </div>
             </div>

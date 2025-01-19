@@ -23,7 +23,7 @@ const TsjansterInfo = ({ isOpen, content, onClose }) => {
             {content.link.text}
           </Link>
         )}
-        {/* {content.key !== 3 && (
+        {content.key !== 3 && (
           <button className="btn_main">
             <Link
               to="/fa-stod"
@@ -33,7 +33,7 @@ const TsjansterInfo = ({ isOpen, content, onClose }) => {
               FÅ STÖD
             </Link>
           </button>
-        )} */}
+        )}
       </div>
     </div>
   );
