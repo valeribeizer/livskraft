@@ -1,7 +1,8 @@
 import React from "react";
-import "./style.css";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
+import { Link } from "react-router";
+import "./style.css";
 
 const Faq = () => {
   const faqArr = [
@@ -70,8 +71,27 @@ const Faq = () => {
     {
       key: 11,
       question: "Vad kostar era tjänster?",
-      answer:
-        "Priserna för mina tjänster, inklusive läkemedelsgenomgångar, hälsokonsultationer, uppföljningar och föreläsningar, börjar från de belopp som anges i sektionen 'Priser' i huvudmenyn på hemsidan.\n\nJag tror på att hälsa ska vara tillgänglig för alla. Om du har ett stort behov av mina tjänster men ekonomin är en utmaning, tveka inte att höra av dig. Vi kan tillsammans hitta en lösning och anpassa priset efter dina förutsättningar – för mig är det viktigaste att kunna hjälpa dig på din resa mot ett bättre välmående.",
+      answer: (
+        <>
+          Priserna för mina tjänster, inklusive läkemedelsgenomgångar,
+          hälsokonsultationer, uppföljningar och föreläsningar, börjar från de
+          belopp som anges i sektionen{" "}
+          <Link
+            to="/tjanster"
+            className="btn-link"
+            style={{ color: "#3f3b36", textDecoration: "underline" }}
+          >
+            'Tjänster'
+          </Link>{" "}
+          i huvudmenyn på hemsidan.
+          <br />
+          Jag tror på att hälsa ska vara tillgänglig för alla. Om du har ett
+          stort behov av mina tjänster men ekonomin är en utmaning, tveka inte
+          att höra av dig. Vi kan tillsammans hitta en lösning och anpassa
+          priset efter dina förutsättningar – för mig är det viktigaste att
+          kunna hjälpa dig på din resa mot ett bättre välmående.
+        </>
+      ),
     },
   ];
   return (
@@ -99,7 +119,9 @@ const Faq = () => {
                 class="accordion-collapse collapse"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div class="accordion-body"><p className="p-faq">{answer}</p></div>
+                <div class="accordion-body">
+                  <p className="p-faq">{answer}</p>
+                </div>
               </div>
             </div>
           ))}
