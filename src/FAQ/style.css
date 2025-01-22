@@ -4,14 +4,14 @@
 
 .p-faq {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   text-align: left;
   white-space: pre-line;
 }
 
 .accordion-button {
   background-color: #eae5db !important;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .accordion-collapse {

@@ -11,7 +11,7 @@ const Policy = () => {
     },
     {
       qw: "Hur använder vi dina uppgifter?",
-      answ: "Vi behandlar dina personuppgifter för följande ändamål:\n\nTillhandahålla friskvårdstjänster:\n- Ge råd om livsstil, kost och stresshantering baserat på dina behov och mål.\n- Förse dig med utbildning kring dina läkemedel, så att du kan diskutera dem vidare med din läkare.\n\nKommunikation::\n- SKontakta dig för att boka eller följa upp konsultationer och besvara frågor.\n\nTjänsteutveckling:\n- Analysera anonymiserad data för att förbättra våra tjänster.",
+      answ: "Vi behandlar dina personuppgifter för följande ändamål:\n\nTillhandahålla friskvårdstjänster:\n- Ge råd om livsstil, kost och stresshantering baserat på dina behov och mål.\n- Förse dig med utbildning kring dina läkemedel, så att du kan diskutera dem vidare med din läkare.\n\nKommunikation:\n- Kontakta dig för att boka eller följa upp konsultationer och besvara frågor.\n\nTjänsteutveckling:\n- Analysera anonymiserad data för att förbättra våra tjänster.",
     },
     {
       qw: "Rättslig grund för behandling",
@@ -43,7 +43,7 @@ const Policy = () => {
     },
     {
       qw: "Kontakt",
-      answ: "Om du har frågor om denna integritetspolicy eller hur vi hanterar dina uppgifter, kontakta oss på:\n\n- E-post: info@livskraft.eu\n- Telefon: 073-810 28 28\n\nOm du anser att vi har hanterat dina uppgifter felaktigt kan du lämna ett klagomål till Integritetsskyddsmyndigheten (IMY) via deras webbplats: www.imy.se.",
+      answ: "Om du har frågor om denna integritetspolicy eller hur vi hanterar dina uppgifter, kontakta oss på:\n\n- E-post: info@livskraft.eu\n\nOm du anser att vi har hanterat dina uppgifter felaktigt kan du lämna ett klagomål till Integritetsskyddsmyndigheten (IMY) via deras webbplats: www.imy.se.",
     },
   ];
 

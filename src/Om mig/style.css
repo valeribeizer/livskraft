@@ -83,3 +83,17 @@
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 1700px) {
+  .om-mig-img-1 {
+    width: 80%;
+  }
+
+  .p-om {
+    font-size: 20px;
+  }
+
+  .p1-om {
+    font-size: 20px;
+  }
+}

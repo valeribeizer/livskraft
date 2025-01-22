@@ -42,7 +42,7 @@
 .btn_main {
   width: 70%;
   font-size: 12px;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
   min-height: 40px;
 }
 
@@ -59,8 +59,8 @@
 
 @media (min-width: 1024px) {
   .tsInfo-container {
-    width: 80vw;
-    height: 70vh;
+    width: 70vw;
+    height: 60vh;
     padding: 3%;
   }
 
@@ -70,5 +70,13 @@
 
   .btn_main {
     width: 30%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .tsInfo-container {
+    width: 60vw;
+    height: 70vh;
+    justify-content: space-between;
   }
 }
