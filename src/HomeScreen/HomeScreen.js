@@ -16,13 +16,16 @@ const HomeScreen = () => {
           loading="lazy"
         />
         <h1 className="h1-hs">
-          Behöver du hjälp att förstå dina läkemedel bättre?
+          Ett lugnt ankare i din hälsovardag – för dig, eller någon du bryr dig
+          om
         </h1>
         <p className="p-hs">
-          I en tid där hälsa ofta känns som ett mysterium erbjuder Livskraft en
-          plats för klarhet. Som legitimerad apotekare brinner jag för att ge
-          dig verktyg och kunskap att göra medvetna val om din hälsa och ditt
-          välbefinnande.
+          Med legitimation som apotekare, djup medicinsk kunskap och ett tränat
+          öga för subtila signaler hjälper jag dig att fatta kloka, medvetna
+          beslut om din kropp och ditt välmående. Tänk dig en egen husapotekare
+          – en advokat för din hälsa. Någon som ser helheten, ifrågasätter det
+          rutinmässiga när det skaver och står på din sida när det behövs som
+          mest.
         </p>
         <button className="btn_main btn_hs">
           <Link
@@ -30,7 +33,7 @@ const HomeScreen = () => {
             className="btn-link"
             state={{ source: "fa-stod" }}
           >
-            FÅ STÖD
+            BOKA EN PRIVAT KONSULTATION
           </Link>
         </button>
       </div>

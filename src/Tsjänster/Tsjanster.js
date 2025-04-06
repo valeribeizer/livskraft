@@ -9,58 +9,64 @@ const Tsjanster = () => {
     {
       src: "jar.png",
       alt: "jar",
-      title: "Läkemedelsgenomgång",
-      desc: "Känner du dig osäker på dina läkemedel? Få insikt och trygghet genom en individuell genomgång anpassad efter dina behov.",
+      title: "Livskraft: Helhet",
     },
     {
       src: "flower_heart.png",
       alt: "flower_heart",
-      title: "Hälsokonsultation med fokus på naturliga lösningar",
-      desc: "Utforska vägar till bättre balans och välmående genom kost, livsstil och naturliga alternativ.",
+      title: "Livskraft: Källan",
     },
     {
       src: "white_flower.png",
       alt: "white_flower",
-      title: "Uppföljande konsultation",
+      title: "Livskraft: Apothecary",
     },
-    {
-      src: "book.png",
-      alt: "book",
-      title: "Föreläsningar",
-      desc: "Boka en föreläsning för ditt företag eller organisation.",
-    },
+    // {
+    //   src: "book.png",
+    //   alt: "book",
+    //   title: "Föreläsningar",
+    // },
   ];
 
   const tsInfoArr_1 = [
     {
-      title: "Läkemedelsgenomgång",
-      desc: "<ul><li>Inledande samtal (30 minuter): Online eller via telefon, där vi diskuterar dina hälsomål och vad som är viktigast för dig.</li>\n<li>Genomgång av dina läkemedel (60 minuter): Vi går igenom de läkemedel du vill veta mer om, med fokus på det som känns mest relevant för dig.</li>\n<li>För- och nackdelar med din behandling: Få hjälp att förstå syftet med dina läkemedel, möjliga risker och alternativ att diskutera med din läkare.</li>\n<li>Skriftlig sammanställning: En tydlig rapport som ger överblick över dina läkemedel och fungerar som ett stöd i dialogen med din läkare.</li>\n<li>Uppföljande samtal (30 minuter): För att gå igenom framsteg och diskutera eventuella frågor eller justeringar.</li></ul>",
-      pris: "Pris: Från 2 200 SEK",
+      title: "Livskraft: Helhet",
+      p_desc:
+        "En 3-månaders vägledning som hjälper dig att fatta medvetna beslut om din hälsa och etablera hållbara rutiner.",
+      desc: "<ul><li>Inledande konsultation (90 min) – Vi går igenom din hälsosituation, dina behov och mål</li>\n<li>Skriftlig sammanställning av individuella rekommendationer</li>\n<li>Huvudsaklig vägledning (60 min, ca en vecka senare) – Fördjupning och konkreta steg att ta upp med din läkare</li>\n<li>Stöd inför kontakt med vården – Jag hjälper dig att formulera frågor och mål inför läkarbesök. Alla medicinska beslut sker alltid i samråd med din läkare.</li>\n<li>Löpande uppföljningar varannan vecka i 3 månader (30 min per gång) – Justeringar baserat på dina resultat.</li></ul>",
+      pris: "Pris:<br /><p className='p-tsInfo'>Basnivå: 25 000 kr<br />Fördjupad vägledning (mer komplexa behov, fler läkemedel, tätare kontakt): 45 000 kr</p>",
+      btn_text: "BOKA HÄR",
       key: 0,
     },
     {
-      title: "Hälsokonsultation med fokus på naturliga lösningar",
-      desc: "<ul>\n<li>Inledande samtal (30 minuter): Online eller via telefon, där vi diskuterar dina hälsomål och vad som är viktigast för dig..</li>\n<li>Skriftlig sammanställning: Efter konsultationen får du en personlig handlingsplan som sammanfattar rekommenderade livsstilsförändringar, kostråd och naturliga alternativ, anpassat efter dina specifika behov och mål.</li>\n<li>Uppföljande samtal (30 minuter): För att gå igenom framsteg och diskutera eventuella frågor eller justeringar.</li></ul>",
-      pris: "Pris: Från 1 500 SEK",
+      title: "Livskraft: Källan",
+      p_desc:
+        "En exklusiv 6-månaders hälsovägledning för dig som vill optimera ditt välmående, skapa nya, hållbara vanor och minska din läkemedelsanvändning.",
+      desc: "<ul><li>Djupgående hälsokartläggning och analys (120 min).</li>\n<li>Skräddarsydd plan och individuella rekommendationer.</li>\n<li>Personlig vägledning varannan vecka i 6 månader (60 min per gång).</li>\n<li>Obegränsad chatt- och mailsupport mellan mötena.</li>\n<li>Löpande anpassning av din plan efter framsteg och behov</li>\n<li>Stöd i kontakt med vården – Jag hjälper dig att förbereda inför läkarbesök och kan, om du önskar, delta vid ett (1) tillfälle som medicinskt stöd. Alla behandlingsbeslut tas i samråd med din läkare.</li></ul>",
+      pris: "Pris:<br /><p className='p-tsInfo'>125 000 kr</p>",
+      btn_text: "ANSÖK HÄR",
       key: 1,
     },
     {
-      title: "Uppföljande konsultation",
-      desc: "Ett uppföljande möte för att utvärdera dina framsteg, justera din plan och ge fortsatt stöd på din hälsoresa. Perfekt för att säkerställa att förändringarna är hållbara och anpassade till dina mål.<ul>\n<li>Tid: 45-60 minuter</li>\n<li>Vi går igenom vad som fungerar bra, vad som kan justeras, och hur vi bäst stöttar dig i dina långsiktiga hälsomål.</li></ul>",
-      pris: "Pris: Från 1 000 SEK",
+      title: "Livskraft: Apothecary",
+      p_desc:
+        "En högst personlig tjänst där jag fungerar som din privata husapotekare. För dig som vill ha en personlig hälsorådgivare för hela familjen och högsta möjliga service.",
+      desc: "<ul><li>Skräddarsydd plan för hela familjen – optimerad hälsa och naturliga lösningar.</li>\n<li>Privata hembesök och/eller personlig tillgänglighet vid behov.</li>\n<li>Fullt stöd i kontakt med vården – Jag kan delta vid upp till tre (3) läkarbesök per halvår, inklusive förberedelse, uppföljning och kommunikation. Du får ett medicinskt ombud vid din sida, men all behandling sker i samråd med din läkare.</li>\n<li>Frekventa check-ins och fullständig diskretion.</li>\n<li>Löpande justeringar och rådgivning under 6–12 månader.</li></ul>",
+      pris: "Pris:<br /><p className='p-tsInfo'>Från 250 000 kr (skräddarsydd offert beroende på behov)</p>",
+      btn_text: "KONTAKTA MIG",
       key: 2,
     },
-    {
-      title: "Föreläsningar",
-      desc: "Bjud in mig till er organisation för inspirerande och informativa föreläsningar. Varje föreläsning är utformad för att ge insikter och praktiska verktyg som kan användas för att förbättra välmående och inspirera till medvetna val. Föreläsningarna kan även skräddarsys för att passa just era behov och intressen.\n\nPopulära teman:\n\n<ul><li>“Naturligtvis! Vägar till hälsa utan onödiga piller”</li>\n<li>“Rättigheter på apoteket – visste du att du har dem?”</li></ul>",
-      pris: "Pris: Från 6 500 SEK",
-      link: {
-        to: "/forelasningar",
-        text: "Utforska listan över mina föreläsningar här",
-        className: "link-tsInfo",
-      },
-      key: 3,
-    },
+    // {
+    //   title: "Föreläsningar",
+    //   desc: "Bjud in mig till er organisation för inspirerande och informativa föreläsningar. Varje föreläsning är utformad för att ge insikter och praktiska verktyg som kan användas för att förbättra välmående och inspirera till medvetna val. Föreläsningarna kan även skräddarsys för att passa just era behov och intressen.\n\nPopulära teman:\n\n<ul><li>“Naturligtvis! Vägar till hälsa utan onödiga piller”</li>\n<li>“Rättigheter på apoteket – visste du att du har dem?”</li></ul>",
+    //   pris: "Pris: Från 6 500 SEK",
+    //   link: {
+    //     to: "/forelasningar",
+    //     text: "Utforska listan över mina föreläsningar här",
+    //     className: "link-tsInfo",
+    //   },
+    //   key: 3,
+    // },
   ];
 
   const [isTsInfoOpen, setTsInfoOpen] = useState(false);
@@ -82,7 +88,7 @@ const Tsjanster = () => {
       <div className="ts-container">
         <h1>TJÄNSTER</h1>
         <div className="row margin gap">
-          {tsjansterArr_1.map(({ src, alt, title, desc }, index) => (
+          {tsjansterArr_1.map(({ src, alt, title }, index) => (
             <div
               className="col col-lg-8"
               key={index}
@@ -94,7 +100,6 @@ const Tsjanster = () => {
                 </div>
                 <div className="col-8">
                   <h2 className="h2-ts">{title}</h2>
-                  {/* <p className="p-ts">{desc}</p> */}
                 </div>
               </div>
             </div>

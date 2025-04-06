@@ -35,11 +35,17 @@ const ContactForm = () => {
     <div>
       <NavBar />
       <div className="cf-container">
-        {source === 'bokningsforfragan' ? (
+        {source === "bokningsforfragan" ? (
           <h1>SKICKA BOKNINGSFÖRFRÅGAN</h1>
         ) : (
-          <h1>FÅ STÖD</h1>
+          <h1>PRIVAT RÅDGIVNING</h1>
         )}
+        <p className="p-form">
+          Jag tar endast emot ett begränsat antal klienter varje månad för att
+          säkerställa högsta kvalitet och personlig vägledning. Fyll i
+          formuläret nedan för att skicka in din förfrågan, så återkommer jag
+          personligen.
+        </p>
         <form className="needs-validation" ref={form} onSubmit={sendEmail}>
           <label for="validation-1" className="form-label">
             Namn och efternamn

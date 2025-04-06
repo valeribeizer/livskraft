@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router";
 import HomeScreen from "./HomeScreen/HomeScreen";
-import OmOss from "./Om oss/OmOss";
+import OmLivskraft from "./Om oss/OmOss";
 import Kontakt from "./Kontakt/Kontakt";
 import Faq from "./FAQ/Faq";
 import Tsjanster from "./Tsjänster/Tsjanster";
@@ -14,12 +14,13 @@ import ContactForm from "./СontactForm/ContactForm";
 import SuccessMsg from "./SuccessMsg/SuccessMsg";
 import OmMig from "./Om mig/OmMig";
 
+
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<HomeScreen />} />
-        <Route path="/om-oss" element={<OmOss />} />
+        <Route path="/om-livskraft" element={<OmLivskraft />} />
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/tjanster" element={<Tsjanster />} />

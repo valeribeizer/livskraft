@@ -4,12 +4,12 @@ import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import './style.css';
 
-const OmOss = () => {
+const OmLivskraft = () => {
     return (
       <div>
         <NavBar />
         <div className="om-oss-container">
-          <h1>OM OSS</h1>
+          <h1>OM LIVSKRAFT</h1>
           <div className="row">
             <div className="col-lg-7 align-self-end">
               <p className="p-om-oss">
@@ -49,4 +49,4 @@ const OmOss = () => {
     );
 }
 
-export default OmOss;
+export default OmLivskraft;

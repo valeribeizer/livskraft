@@ -32,8 +32,8 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav w-100 justify-content-evenly" style={{ textAlign: 'right' }}>
               <li className="nav-item">
-                <Link to="/om-oss" className="nav-link">
-                  OM OSS
+                <Link to="/om-livskraft" className="nav-link">
+                  OM LIVSKRAFT
                 </Link>
               </li>
               <li className="nav-item">
