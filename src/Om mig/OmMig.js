@@ -7,9 +7,9 @@ import "./style.css";
 const OmMig = () => {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <div className="om-container">
-        <h1>PERSONEN BAKOM LIVSKRAFT</h1>
+        <h1 className="h1-mig">PERSONEN BAKOM LIVSKRAFT</h1>
         {window.innerWidth > 560 ? (
           <div className="row row-custom">
             <div className="col-12 col-md-7 col-lg-8">
@@ -110,7 +110,7 @@ const OmMig = () => {
           </div>
         )}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

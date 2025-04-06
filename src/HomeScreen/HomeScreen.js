@@ -3,6 +3,7 @@ import NavBar from "../NavBar/NavBar";
 import "./style.css";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router";
+import OmMig from "../Om mig/OmMig";
 
 const HomeScreen = () => {
   return (
@@ -34,6 +35,7 @@ const HomeScreen = () => {
             BOKA EN PRIVAT KONSULTATION
           </Link>
         </button>
+        <OmMig />
       </div>
       <Footer />
     </div>

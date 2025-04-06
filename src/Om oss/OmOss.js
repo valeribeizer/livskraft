@@ -11,7 +11,7 @@ const OmLivskraft = () => {
         <div className="om-oss-container">
           <h1>OM LIVSKRAFT</h1>
           <div className="row">
-            <div className="col-lg-7 align-self-end">
+            <div className="col-lg-5 align-self-end">
               <p className="p-om-oss">
                 Välkommen till Livskraft – en plats där kunskap möter naturens
                 visdom. Här vill jag ge dig verktyg och insikter för att göra
@@ -25,23 +25,23 @@ const OmLivskraft = () => {
                 vägar till balans, hållbarhet och långsiktig hälsa. Din resa
                 börjar här – med nyfikenhet, kunskap och en vilja att ta
                 kontroll över ditt välmående.
-                <br />
+                {/* <br />
                 <br />
                 Vill du veta mer om mig och vad som inspirerade mig att starta
                 Livskraft?{" "}
                 <Link to="/om-mig" style={{ color: "#3f3b36" }}>
                   Klicka här
-                </Link>
+                </Link> */}
               </p>
             </div>
-            <div className="col-lg-5 d-flex justify-content-col padding-col">
+            {/* <div className="col-lg-5 d-flex justify-content-col padding-col">
               <img
                 className="om-oss-img"
                 src="om-oss-img.png"
                 alt="om-oss"
                 loading="lazy"
               />
-            </div>
+            </div> */}
           </div>
         </div>
         <Footer />
