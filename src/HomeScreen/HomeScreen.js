@@ -20,9 +20,7 @@ const HomeScreen = () => {
           om
         </h1>
         <p className="p-hs">
-          Med legitimation som apotekare, djup medicinsk kunskap och ett tränat
-          öga för subtila signaler hjälper jag dig att fatta kloka, medvetna
-          beslut om din kropp och ditt välmående. Tänk dig en egen husapotekare
+          Tänk dig en egen husapotekare
           – en advokat för din hälsa. Någon som ser helheten, ifrågasätter det
           rutinmässiga när det skaver och står på din sida när det behövs som
           mest.

@@ -31,15 +31,16 @@ p {
 .btn_main {
   width: 30%;
   height: 40px;
-  border: none;
-  border-radius: 20px;
-  background-color: #3f3b36;
-  color: #eae5db;
+  border: 1px solid #3f3b36;
+  border-radius: 10px;
+  background-color: #eae5db;
+  color: #3f3b36;
   margin: 2% 0;
 }
 
 .btn_main:hover {
-  opacity: 0.7;
+  background-color: rgba(138, 130, 119, 0.2);
+  border: none;
 }
 
 @media (max-width: 576px) {

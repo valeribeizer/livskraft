@@ -29,11 +29,11 @@ h1 {
 
 .btn-link {
   text-decoration: none;
-  color: #eae5db;
+  color: #3f3b36;
 }
 
 .btn-link:hover {
-  color: #eae5db;
+  color: #3f3b36;
 }
 
 @media (min-width: 768px) {
