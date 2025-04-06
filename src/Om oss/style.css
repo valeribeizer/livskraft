@@ -1,10 +1,14 @@
 .om-oss-container {
   padding: 5% 5% 5%;
   background-image: url("/public/om-oss-img.png");
-  height: 700px;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.custom-wrapper > * {
+  background-color: transparent !important;
 }
 
 .om-oss-img {
@@ -28,22 +32,22 @@
 @media (min-width: 768px) {
   .om-oss-container {
     padding: 0.2% 5% 5%;
-    height: 800px;
+    /* height: 1050px; */
   }
 }
 
-@media (min-width: 820px) {
+/* @media (min-width: 820px) {
   .om-oss-container {
-    height: 900px;
+    height: 1200px;
   }
-}
+} */
 
 @media (min-width: 1024px) {
   .om-oss-container {
     margin-top: 1%;
     background-image: url("/public/om-mig-img-2.png");
     padding: 0.2% 5% 5%;
-    height: 1000px;
+    /* height: 1400px; */
   }
 }
 
@@ -51,7 +55,7 @@
   .om-oss-container {
     margin-top: 1%;
     padding: 0.5% 5% 5%;
-    height: 750px;
+    height: 125vh;
   }
 
   .om-oss-img {
