@@ -21,10 +21,9 @@ const HomeScreen = () => {
           om
         </h1>
         <p className="p-hs">
-          Tänk dig en egen husapotekare
-          – en advokat för din hälsa. Någon som ser helheten, ifrågasätter det
-          rutinmässiga när det skaver och står på din sida när det behövs som
-          mest.
+          Tänk dig en egen husapotekare – en advokat för din hälsa. Någon som
+          ser helheten, ifrågasätter det rutinmässiga när det skaver och står på
+          din sida när det behövs som mest.
         </p>
         <button className="btn_main btn_hs">
           <Link
@@ -35,8 +34,8 @@ const HomeScreen = () => {
             BOKA EN PRIVAT KONSULTATION
           </Link>
         </button>
-        <OmMig />
       </div>
+      <OmMig />
       <Footer />
     </div>
   );
