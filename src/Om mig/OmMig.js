@@ -98,14 +98,14 @@ const OmMig = () => {
                 välmående vill jag ge dig verktygen att navigera dina läkemedel,
                 utforska naturliga lösningar och hitta balans.
               </p>
-              <p className="p1-om">
+              {/* <p className="p1-om">
                 Om detta resonemang väcker något inom dig, är du varmt välkommen
                 att utforska mina{" "}
                 <Link to="/tjanster" className="om-link">
                   tjänster
                 </Link>{" "}
                 .
-              </p>
+              </p> */}
             </div>
           </div>
         )}
