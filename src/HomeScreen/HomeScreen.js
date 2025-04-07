@@ -4,6 +4,7 @@ import "./style.css";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router";
 import OmMig from "../Om mig/OmMig";
+import Klientroster from "../Klientroster/Klientroster";
 
 const HomeScreen = () => {
   return (
@@ -36,6 +37,7 @@ const HomeScreen = () => {
         </button>
       </div>
       <OmMig />
+      <Klientroster />
       <Footer />
     </div>
   );
