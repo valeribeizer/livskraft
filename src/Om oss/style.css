@@ -1,7 +1,7 @@
 .om-oss-container {
   padding: 5% 5% 5%;
   background-image: url("/public/om-oss-img.png");
-  height: 100vh;
+  height: 110vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@
 
 @media (min-width: 1024px) {
   .om-oss-container {
-    margin-top: 1%;
+    /* margin-top: 1%; */
     background-image: url("/public/om-mig-img-2.png");
     padding: 0.2% 5% 5%;
     /* height: 1400px; */
@@ -53,9 +53,9 @@
 
 @media (min-width: 1200px) {
   .om-oss-container {
-    margin-top: 1%;
+    /* margin-top: 1%; */
     padding: 0.5% 5% 5%;
-    height: 125vh;
+    height: 130vh;
   }
 
   .om-oss-img {
