@@ -18,9 +18,14 @@ const Klientroster = () => {
       key: 0,
     },
     {
-      text: "“Det har varit väldigt givande. Jag hade inte haft ork eller tid att ta reda på allt det jag fick från dig – det var ovärderligt. Jag trodde inte ens att det var möjligt att bli helt utan min medicin… men det gick. Det var fantastiskt!”",
+      text: "“Det har varit väldigt givande. Jag hade inte haft ork eller tid att ta reda på allt det jag fick från dig – det var ovärderligt.”",
       name: "Ayşegül",
       key: 1,
+    },
+    {
+      text: '"Jag trodde inte ens att det var möjligt att bli helt utan min medicin… men det gick. Det var fantastiskt!"',
+      name: "Ayşegül",
+      key: 2,
     },
   ];
 
