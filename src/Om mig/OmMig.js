@@ -1,7 +1,7 @@
 import React from "react";
 // import NavBar from "../NavBar/NavBar";
 // import Footer from "../Footer/Footer";
-import { Link } from "react-router";
+// import { Link } from "react-router";
 import "./style.css";
 
 const OmMig = () => {
