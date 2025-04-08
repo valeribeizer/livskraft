@@ -81,7 +81,7 @@ const ContactForm = () => {
             När vill du bli kontaktad?
           </label>
           <input
-            type="text"
+            type="datetime-local"
             name="time"
             className="form-control"
             id="validation-4"
