@@ -1,15 +1,19 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { useLocation } from "react-router";
 import emailjs from "@emailjs/browser";
 import "./style.css";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import { sv } from "date-fns/locale";
 
 const ContactForm = () => {
   const form = useRef();
   const location = useLocation();
   const source = location.state?.source;
+  const [selectedDate, setSelectedDate] = useState(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -80,12 +84,28 @@ const ContactForm = () => {
           <label for="validation-4" className="form-label">
             När vill du bli kontaktad?
           </label>
-          <input
-            type="datetime-local"
-            name="time"
-            className="form-control"
+          <DatePicker
             id="validation-4"
+            selected={selectedDate}
+            onChange={(date) => setSelectedDate(date)}
+            className="form-control"
+            showTimeSelect
+            dateFormat="Pp"
+            locale={sv}
+            minDate={new Date()}
+            minTime={
+              selectedDate &&
+              selectedDate.toDateString() === new Date().toDateString()
+                ? new Date()
+                : new Date().setHours(0, 0, 0, 0)
+            }
+            maxTime={new Date().setHours(23, 59, 0, 0)}
             required
+          />
+          <input
+            type="hidden"
+            name="time"
+            value={selectedDate ? selectedDate.toISOString() : ""}
           />
           <label for="validation-5" className="form-label">
             Hur föredrar du att bli kontaktad?
