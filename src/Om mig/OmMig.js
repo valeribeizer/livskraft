@@ -14,10 +14,10 @@ const OmMig = () => {
           <div className="row row-custom">
             <div className="col-12 col-md-7 col-lg-8">
               <p className="p-om">
-                Hälsa är en av livets största gåvor – och mysterier. Ibland kan
+                "Hälsa är en av livets största gåvor – och mysterier. Ibland kan
                 vi påverka den genom våra val, medan andra gånger är sjukdom
                 bortom vår kontroll. Oavsett var vi befinner oss finns det
-                alltid utrymme för läkning, balans och förståelse.
+                alltid utrymme för läkning och förståelse."
                 <br />
                 <br />
                 Jag heter Eunice och är legitimerad apotekare med en
@@ -38,7 +38,7 @@ const OmMig = () => {
                 meningsfullt sätt som jag startade Livskraft. Genom att
                 kombinera min farmaceutiska expertis med en holistisk syn på
                 välmående vill jag ge dig verktygen att navigera dina läkemedel,
-                utforska naturliga lösningar och hitta balans.
+                utforska naturliga lösningar och hitta lite mer balans.
               </p>
               {/* <p className="p1-om">
                 Om detta resonemang väcker något inom dig, är du varmt välkommen
@@ -62,10 +62,10 @@ const OmMig = () => {
           <div className="row row-custom">
             <div className="col-12 col-md-7 col-lg-8">
               <p className="p-om">
-                Hälsa är en av livets största gåvor – och mysterier. Ibland kan
+                "Hälsa är en av livets största gåvor – och mysterier. Ibland kan
                 vi påverka den genom våra val, medan andra gånger är sjukdom
                 bortom vår kontroll. Oavsett var vi befinner oss finns det
-                alltid utrymme för läkning, balans och förståelse.
+                alltid utrymme för läkning och förståelse."
                 <br />
                 <br />
                 Jag heter Eunice och är legitimerad apotekare med en
@@ -96,7 +96,7 @@ const OmMig = () => {
                 meningsfullt sätt som jag startade Livskraft. Genom att
                 kombinera min farmaceutiska expertis med en holistisk syn på
                 välmående vill jag ge dig verktygen att navigera dina läkemedel,
-                utforska naturliga lösningar och hitta balans.
+                utforska naturliga lösningar och hitta lite mer balans.
               </p>
               {/* <p className="p1-om">
                 Om detta resonemang väcker något inom dig, är du varmt välkommen

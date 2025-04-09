@@ -14,7 +14,7 @@ const OmLivskraft = () => {
         <div className="row">
           <div className="col-lg-5 align-self-end">
             <p className="p-om-oss">
-              Välkommen till Livskraft – en plats där kunskap möter naturens
+              Välkommen till Livskraft – en plats där vetenskap möter naturens
               visdom. Här vill jag ge dig verktyg och insikter för att göra
               medvetna val om din hälsa och ditt välmående. Genom utbildning om
               dina läkemedel och personligt anpassade livsstilsförändringar,
