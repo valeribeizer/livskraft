@@ -46,11 +46,11 @@ const NavBar = () => {
                   BUTIK
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="/faq" className="nav-link">
                   FAQ
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link to="/kontakt" className="nav-link">
                   KONTAKT
