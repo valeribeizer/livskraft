@@ -13,13 +13,15 @@ const OmMig = () => {
         {window.innerWidth > 560 ? (
           <div className="row row-custom">
             <div className="col-12 col-md-7 col-lg-8">
-              <p className="p-om">
+              <p className="p-om-1">
                 "Hälsa är en av livets största gåvor – och mysterier. Ibland kan
                 vi påverka den genom våra val, medan andra gånger är sjukdom
                 bortom vår kontroll. Oavsett var vi befinner oss finns det
                 alltid utrymme för läkning och förståelse."
                 <br />
                 <br />
+              </p>
+              <p className="p-om">
                 Jag heter Eunice och är legitimerad apotekare med en
                 masterexamen i farmaci. Under mina år på apotek mötte jag
                 människor med långa medicinlistor och många frågor. I en
@@ -34,11 +36,19 @@ const OmMig = () => {
                 begriplig och tillgänglig.
               </p>
               <p className="p-om">
-                Det är med önskan om att få hjälpa till på ett mer hållbart och
-                meningsfullt sätt som jag startade Livskraft. Genom att
-                kombinera min farmaceutiska expertis med en holistisk syn på
-                välmående vill jag ge dig verktygen att navigera dina läkemedel,
-                utforska naturliga lösningar och hitta lite mer balans.
+                Det var ur en längtan efter något mer som Livskraft växte fram.
+                Ett mer hållbart sätt att leva, tänka och ta hand om sig själv –
+                där läkemedel inte är det enda svaret, utan en del av en större
+                helhet.
+                <br />
+                <br />
+                Med min farmaceutiska expertis i grunden, och en nyfikenhet på
+                hur kroppen och livet samspelar, vill jag erbjuda en plats för
+                klarhet, strategi och omsorg.
+                <br />
+                <br />
+                Där du får kraften att fatta medvetna beslut, hitta tillbaka
+                till din rytm – och skapa ett liv där hälsa känns självklart.
               </p>
               {/* <p className="p1-om">
                 Om detta resonemang väcker något inom dig, är du varmt välkommen
@@ -61,13 +71,15 @@ const OmMig = () => {
         ) : (
           <div className="row row-custom">
             <div className="col-12 col-md-7 col-lg-8">
-              <p className="p-om">
+              <p className="p-om-1">
                 "Hälsa är en av livets största gåvor – och mysterier. Ibland kan
                 vi påverka den genom våra val, medan andra gånger är sjukdom
                 bortom vår kontroll. Oavsett var vi befinner oss finns det
                 alltid utrymme för läkning och förståelse."
-                <br />
-                <br />
+                {/* <br />
+                <br /> */}
+              </p>
+              <p className="p-om">
                 Jag heter Eunice och är legitimerad apotekare med en
                 masterexamen i farmaci. Under mina år på apotek mötte jag
                 människor med långa medicinlistor och många frågor. I en
@@ -92,11 +104,19 @@ const OmMig = () => {
             </div>
             <div className="col-12 custom-marg">
               <p className="p-om">
-                Det är med önskan om att få hjälpa till på ett mer hållbart och
-                meningsfullt sätt som jag startade Livskraft. Genom att
-                kombinera min farmaceutiska expertis med en holistisk syn på
-                välmående vill jag ge dig verktygen att navigera dina läkemedel,
-                utforska naturliga lösningar och hitta lite mer balans.
+                Det var ur en längtan efter något mer som Livskraft växte fram.
+                Ett mer hållbart sätt att leva, tänka och ta hand om sig själv –
+                där läkemedel inte är det enda svaret, utan en del av en större
+                helhet.
+                <br />
+                <br />
+                Med min farmaceutiska expertis i grunden, och en nyfikenhet på
+                hur kroppen och livet samspelar, vill jag erbjuda en plats för
+                klarhet, strategi och omsorg.
+                <br />
+                <br />
+                Där du får kraften att fatta medvetna beslut, hitta tillbaka
+                till din rytm – och skapa ett liv där hälsa känns självklart.
               </p>
               {/* <p className="p1-om">
                 Om detta resonemang väcker något inom dig, är du varmt välkommen
