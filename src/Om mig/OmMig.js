@@ -44,10 +44,7 @@ const OmMig = () => {
                 <br />
                 Med min farmaceutiska expertis i grunden, och en nyfikenhet på
                 hur kroppen och livet samspelar, vill jag erbjuda en plats för
-                klarhet, strategi och omsorg.
-                <br />
-                <br />
-                Där du får kraften att fatta medvetna beslut, hitta tillbaka
+                klarhet, strategi och omsorg. Där du får kraften att fatta medvetna beslut, hitta tillbaka
                 till din rytm – och skapa ett liv där hälsa känns självklart.
               </p>
               {/* <p className="p1-om">
@@ -112,10 +109,7 @@ const OmMig = () => {
                 <br />
                 Med min farmaceutiska expertis i grunden, och en nyfikenhet på
                 hur kroppen och livet samspelar, vill jag erbjuda en plats för
-                klarhet, strategi och omsorg.
-                <br />
-                <br />
-                Där du får kraften att fatta medvetna beslut, hitta tillbaka
+                klarhet, strategi och omsorg. Där du får kraften att fatta medvetna beslut, hitta tillbaka
                 till din rytm – och skapa ett liv där hälsa känns självklart.
               </p>
               {/* <p className="p1-om">
