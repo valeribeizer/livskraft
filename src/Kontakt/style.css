@@ -1,0 +1,61 @@
+.kt-container {
+  padding: 0 5% 5%;
+}
+
+.kt-img {
+  width: 80%;
+  margin: 10% 0;
+}
+
+.p-kontakt {
+  font-size: 18px;
+  margin-bottom: 10%;
+  font-style: italic;
+}
+
+.kt-content {
+  text-align: center;
+}
+
+.a-kontakt {
+  text-decoration: none;
+  color: #3f3b36;
+}
+
+.insta-icon {
+  width: 8%;
+  margin-bottom: 10%;
+}
+
+@media (min-width: 748px) {
+  .kt-img {
+    width: 50%;
+  }
+
+  .p-kontakt {
+    font-size: 20px;
+  }
+
+  .insta-icon {
+    width: 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .kt-container {
+    padding: 0 5%;
+  }
+
+  .kt-img {
+    width: 20%;
+    margin: 4% 0 2%;
+  }
+
+  .p-kontakt {
+    margin-bottom: 2%;
+  }
+
+  .insta-icon {
+    width: 2%;
+  }
+}

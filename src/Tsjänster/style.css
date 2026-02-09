@@ -1,0 +1,76 @@
+.ts-container {
+  padding: 0 5% 5%;
+}
+
+.ts-img {
+  width: 70%;
+}
+
+.h2-ts {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.p-ts {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.align {
+  align-items: center;
+  border: 1px solid #3f3b36;
+  border-radius: 20px;
+  padding: 5%;
+}
+
+.align-1 {
+  text-align: center;
+  padding: 0;
+}
+
+.margin {
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  margin: 10% 0 5% 0;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .h2-ts {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ts-container {
+    padding: 0 5%;
+  }
+
+  .margin {
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin: 5% auto 10%;
+  }
+
+  .ts-img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .ts-img {
+    width: 30%;
+  }
+
+  .margin {
+    margin: 1% auto 10%;
+  }
+
+  .gap {
+    gap: 30px;
+  }
+}

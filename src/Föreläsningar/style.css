@@ -1,0 +1,57 @@
+.forelasningar-container {
+  padding: 0 5%;
+}
+
+.p-forelasningar {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  white-space: pre-line;
+}
+
+.accordion-button {
+  background-color: #eae5db !important;
+  font-size: 18px;
+}
+
+.accordion-collapse {
+  background-color: #eae5db !important;
+}
+
+.accordion-item {
+  border-bottom: 0.5px solid #3f3b36;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-active-color: none;
+  --bs-accordion-active-bg: none;
+}
+
+.btn_main {
+  margin: 7% auto 10%;
+  display: block;
+}
+
+.btn-link {
+  color: #eae5db;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #eae5db;
+}
+
+@media (max-width: 560px) {
+  .forelasningar-container {
+    padding: 0 5% 5%;
+  }
+
+  .accordion-button {
+    font-size: 16px;
+  }
+
+  .btn_main {
+    margin-top: 12%;
+  }
+}

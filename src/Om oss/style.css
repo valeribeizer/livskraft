@@ -1,0 +1,79 @@
+.om-oss-container {
+  position: relative;
+  padding: 5% 5% 5%;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.25) 40%, rgba(255, 255, 255, 0.3) 70%, white 100%),
+    url("/public/om-oss-img.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-wrapper > * {
+  background-color: transparent !important;
+}
+
+.om-oss-img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.p-om-oss {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+
+.p-om-oss-1 {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.justify-content-col {
+  justify-content: center;
+}
+
+.padding-col {
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .om-oss-container {
+    padding: 0.2% 5% 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .om-oss-container {
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.25) 40%, rgba(255, 255, 255, 0.3) 70%, white 100%),
+      url("/public/om-mig-img-2.png");
+    padding: 0.2% 5% 5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .om-oss-container {
+    padding: 0.5% 5% 5%;
+  }
+
+  .om-oss-img {
+    width: 85%;
+  }
+
+  .padding-col {
+    padding-right: 0;
+  }
+
+  .justify-content-col {
+    justify-content: end;
+  }
+}
+
+@media (min-width: 1700px) {
+  .p-om-oss {
+    font-size: 20px;
+  }
+}

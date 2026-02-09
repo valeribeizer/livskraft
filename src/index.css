@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "ITC Benguiat";
+  src: url("fonts/BenguiatStd-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "ITC Benguiat", serif;
+  color: #3f3b36;
+  background-color: #eae5db;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.btn_main {
+  width: 30%;
+  height: 40px;
+  border: 1px solid #3f3b36;
+  border-radius: 10px;
+  background-color: #eae5db;
+  color: #3f3b36;
+  margin: 2% 0;
+}
+
+.btn_main:hover {
+  background-color: rgba(138, 130, 119, 0.2);
+  border: none;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .btn_main {
+    width: 90%;
+    margin: 5% 0;
+  }
+}
