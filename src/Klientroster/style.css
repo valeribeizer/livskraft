@@ -1,5 +1,5 @@
 .klientroster-container {
-  padding: 0 5% 10%;
+  padding: 0 5% 0;
   margin-top: 5%;
 }
 
@@ -7,6 +7,19 @@
   position: relative;
   width: 90%;
   margin: 5% auto;
+}
+
+.klientroster-container .slick-list {
+  margin: 0 5% 0 6%;
+  transition: height 0.5s ease;
+}
+
+.klientroster-container .slick-slide {
+  height: auto;
+}
+
+.klientroster-container .slick-slide > div {
+  height: auto;
 }
 
 .klientroster-container .slick-prev,
@@ -24,10 +37,6 @@
   content: url("../../public/arrow-next.png");
 }
 
-.slick-list {
-  margin: 0 5% 0 6%;
-}
-
 .p-klientroster {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -41,7 +50,7 @@
 
 @media (min-width: 768px) {
   .klientroster-container {
-    padding: 0 5% 5%;
+    padding: 0 5% 0;
   }
 
   .slick-slider {
