@@ -19,19 +19,17 @@ const HomeScreen = () => {
         <h1 className="h1-hs">
           Tänk dig en egen husapotekare – en advokat för din hälsa
         </h1>
-        <ul className="p-hs hs-intro-list">
-          <li>
-            Känner du dig osäker på om dina läkemedel verkligen passar dig?
-          </li>
-          <li>
-            Har du oklara symptom eller biverkningar som ingen verkar ta på
-            allvar?
-          </li>
-          <li>
-            Vill du veta hur du kan stötta kroppen naturligt och minska
-            behovet av din nuvarande medicinering?
-          </li>
-        </ul>
+        <p className="p-hs p-hs-intro">
+          Känner du dig osäker på om dina läkemedel verkligen passar dig?
+        </p>
+        <p className="p-hs p-hs-intro">
+          Har du oklara symptom eller biverkningar som ingen verkar ta på
+          allvar?
+        </p>
+        <p className="p-hs p-hs-intro">
+          Vill du veta hur du kan stötta kroppen naturligt och minska behovet
+          av din nuvarande medicinering?
+        </p>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSeD26SQCEJ3EyCzavucHDpMPkjjtp5u1dYOTDA7LYX8OtTBlw/viewform"
           className="btn_main btn_hs btn-link"

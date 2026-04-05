@@ -2,14 +2,11 @@
   display: flex;
   flex-direction: column;
   gap: 5%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   align-items: center;
   justify-content: center;
   background-color: #eae5db;
-  padding-top: 1%;
+  padding: 1.25rem 0 1.75rem;
 }
 
 .a-footer {

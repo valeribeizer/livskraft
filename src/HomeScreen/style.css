@@ -27,20 +27,12 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
-.hs-intro-list {
-  list-style: none;
-  padding-left: 0;
+.p-hs-intro {
   text-align: center;
 }
 
-.hs-intro-list li {
+.p-hs-intro:not(:last-of-type) {
   margin-bottom: 0.75em;
-  padding-left: 1.25em;
-  position: relative;
-}
-
-.hs-intro-list li:last-child {
-  margin-bottom: 0;
 }
 
 .btn-link {
@@ -126,7 +118,8 @@ h1 {
   }
 
   p,
-  .p-hs {
+  .p-hs,
+  .p-hs-intro {
     font-size: 14px;
   }
 
