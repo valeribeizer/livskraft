@@ -10,6 +10,8 @@ body {
   font-family: "ITC Benguiat", serif;
   color: #3f3b36;
   background-color: #eae5db;
+  /* Fixed footer sits on top of the viewport; pad scroll area so bottom content isn’t hidden */
+  padding-bottom: clamp(5.5rem, 14vw, 7.5rem);
 }
 
 h1 {

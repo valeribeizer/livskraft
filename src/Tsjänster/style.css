@@ -2,6 +2,155 @@
   padding: 0 5% 5%;
 }
 
+.second-opinion-page .second-opinion-content {
+  margin: 0 auto;
+}
+
+.second-opinion-page .second-opinion-intro {
+  text-align: center;
+}
+
+.second-opinion-page .second-opinion-intro .p-ts {
+  text-align: center;
+  font-style: italic;
+}
+
+/* Typografi i linje med Butik (Shoppen/style.css) */
+.second-opinion-page .h1-so {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 1.25rem;
+}
+
+.second-opinion-page .h2-so {
+  font-family: "ITC Benguiat", serif;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 1.75rem;
+  margin-bottom: 0.65rem;
+}
+
+.second-opinion-page .p-ts {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.55;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.second-opinion-page .p-so-lead {
+  margin-bottom: 0.4rem;
+}
+
+.second-opinion-page .p-ts-result {
+  font-style: italic;
+}
+
+.second-opinion-page .so-list,
+.second-opinion-page .so-sublist {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1.15rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.second-opinion-page .so-sublist {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.second-opinion-page .so-list > li,
+.second-opinion-page .so-sublist > li {
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: 0.65rem;
+}
+
+.second-opinion-page .so-list > li::before {
+  content: "❥";
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: inherit;
+}
+
+.second-opinion-page .so-sublist > li::before {
+  content: "❧";
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: inherit;
+}
+
+.second-opinion-page .so-list > li:last-child,
+.second-opinion-page .so-sublist > li:last-child {
+  margin-bottom: 0;
+}
+
+.second-opinion-page .so-li-title {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.second-opinion-page .link-so {
+  color: #3f3b36;
+  text-decoration: underline;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.second-opinion-page .link-so:hover {
+  color: #3f3b36;
+}
+
+.second-opinion-page .so-faq-block {
+  margin-top: 1rem;
+}
+
+.second-opinion-page .h2-so-faq {
+  text-align: center;
+}
+
+.second-opinion-page .so-faq-btn-wrap {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 0.75rem; */
+}
+
+.second-opinion-page .so-faq-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .second-opinion-page .h1-so {
+    font-size: 28px;
+  }
+
+  .second-opinion-page .h2-so {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .second-opinion-page .h1-so {
+    font-size: 30px;
+  }
+
+  .second-opinion-page .h2-so {
+    font-size: 26px;
+  }
+}
+
 .ts-img {
   width: 70%;
 }

@@ -13,23 +13,23 @@ const Klientroster = () => {
 
   const feedbacks = [
     {
-      text: '“Jäklar så kompetent du är! Du gör precis som man ska göra. Om vårdpersonalen hade tid att göra det du gör, skulle alla patienter må så mycket bättre – även de svårt sjuka. För allt handlar om trygghet. Och trygghet har en avgörande betydelse för läkning. Tack för att du gör detta!"',
+      text: '"Jag trodde inte ens att det var möjligt att bli helt utan min medicin… men det gick. Det var fantastiskt!"',
       name: "Ayşegül",
       key: 0,
     },
     {
-      text: "“Det har varit väldigt givande. Jag hade inte haft ork eller tid att ta reda på allt det jag fick från dig – det var ovärderligt.”",
-      name: "Ayşegül",
+      text: '"Livskraft har vid flera tillfällen gett mig värdefull information om läkemedel och rådgivning vid vägval där mina läkare visat sig vara relativt okunniga, exempelvis när en läkare kraftfullt rådde mig att börja ta en astmamedicin jag klarat mig utan i flera år, sökte och fick råd av livskraft och valde att lita på det, vilket jag är väldigt glad för idag. Även fått hjälp att hitta rätt sko till mina fötter, lite random men det har hjälpt mig otroligt mycket i vardagen!"',
+      name: "Ben",
       key: 1,
-    },
-    {
-      text: '"Jag trodde inte ens att det var möjligt att bli helt utan min medicin… men det gick. Det var fantastiskt!"',
-      name: "Ayşegül",
-      key: 2,
     },
     {
       text: '"Eunice är oerhört kunnig och ger en information om ens läkemedel som är svår att få ur vanliga apotekare och läkare. Jag fick råd och många väl användbara tips kring hur jag kunde tänka på bland annat min kost för att jag skulle må så bra som möjligt under den långa antibiotikabehandling jag genomgick. Hon var även ett stort stöd i min kontakt med vården och hjälpte mig med vad jag kunde göra för att få så mycket kontroll som möjligt över min behandling. Eunice tar sig tid att ordentligt sätta sig in i ens situation, och bemöter en med en enorm värme och ett engagemang. När den medicinska vården brister är Eunice ett avgörande bollplank och rådgivare. Jag rekommenderar starkt!"',
       name: "Fiona",
+      key: 2,
+    },
+    {
+      text: '“Jäklar så kompetent du är! Du gör precis som man ska göra. Om vårdpersonalen hade tid att göra det du gör, skulle alla patienter må så mycket bättre – även de svårt sjuka. För allt handlar om trygghet. Och trygghet har en avgörande betydelse för läkning. Tack för att du gör detta!"',
+      name: "Ayşegül",
       key: 3,
     },
     {
@@ -43,8 +43,8 @@ const Klientroster = () => {
       key: 5,
     },
     {
-      text: '"Livskraft har vid flera tillfällen gett mig värdefull information om läkemedel och rådgivning vid vägval där mina läkare visat sig vara relativt okunniga, exempelvis när en läkare kraftfullt rådde mig att börja ta en astmamedicin jag klarat mig utan i flera år, sökte och fick råd av livskraft och valde att lita på det, vilket jag är väldigt glad för idag. Även fått hjälp att hitta rätt sko till mina fötter, lite random men det har hjälpt mig otroligt mycket i vardagen!"',
-      name: "Ben",
+      text: "“Det har varit väldigt givande. Jag hade inte haft ork eller tid att ta reda på allt det jag fick från dig – det var ovärderligt.”",
+      name: "Ayşegül",
       key: 6,
     },
   ];

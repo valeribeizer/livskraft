@@ -1,11 +1,18 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 import "./style.css";
 
 const NavBar = () => {
+  const { pathname } = useLocation();
+  const isOmLivskraft = pathname === "/om-livskraft";
+  const headerClass = isOmLivskraft
+    ? "site-header-transparent"
+    : "site-header-sticky";
+  const navTone = isOmLivskraft ? "navbar-light" : "navbar-light bg-light";
+
   return (
-    <>
-      <div className="navbar navbar-light bg-light d-none d-lg-block">
+    <header className={headerClass}>
+      <div className={`navbar ${navTone} d-none d-lg-block`}>
         <div className="container">
           <Link to="/" className="navbar-brand mx-auto">
             <img className="logo" src="logo_nav.png" alt="logo" />
@@ -13,7 +20,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className={`navbar navbar-expand-lg ${navTone}`}>
         <div className="container">
           <Link to="/" className="navbar-brand mx-auto d-lg-none">
             <img className="logo" src="logo_nav.png" alt="logo" />
@@ -70,7 +77,7 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
-    </>
+    </header>
   );
 };
 

@@ -27,6 +27,22 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
+.hs-intro-list {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.hs-intro-list li {
+  margin-bottom: 0.75em;
+  padding-left: 1.25em;
+  position: relative;
+}
+
+.hs-intro-list li:last-child {
+  margin-bottom: 0;
+}
+
 .btn-link {
   text-decoration: none;
   color: #3f3b36;
@@ -34,6 +50,17 @@ h1 {
 
 .btn-link:hover {
   color: #3f3b36;
+}
+
+.btn_hs {
+  text-transform: uppercase;
+}
+
+.hs_container > a.btn_main {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -98,7 +125,8 @@ h1 {
     margin: 2% 0 1%;
   }
 
-  p {
+  p,
+  .p-hs {
     font-size: 14px;
   }
 

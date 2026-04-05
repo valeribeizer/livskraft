@@ -1,3 +1,26 @@
+.site-header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  background-color: #eae5db;
+}
+
+.site-header-transparent {
+  position: static;
+  z-index: 1030;
+  background-color: transparent;
+}
+
+.site-header-transparent .navbar {
+  background-color: transparent !important;
+}
+
+.site-header-transparent .navbar-collapse.show,
+.site-header-transparent .navbar-collapse.collapsing {
+  background-color: rgba(234, 229, 219, 0.94);
+  border-radius: 0 0 12px 12px;
+}
+
 .logo {
   display: flex;
   justify-self: center;
