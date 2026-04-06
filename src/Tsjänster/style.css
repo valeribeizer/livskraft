@@ -32,6 +32,14 @@
   margin-bottom: 0.65rem;
 }
 
+.second-opinion-page .h2-so-story {
+  margin-top: 5rem;
+}
+
+ .intro {
+  text-align: center !important;
+}
+
 .second-opinion-page .p-ts {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -106,6 +114,26 @@
 
 .second-opinion-page .link-so:hover {
   color: #3f3b36;
+}
+
+.second-opinion-page .btn-link {
+  text-decoration: none;
+  color: #3f3b36;
+}
+
+.second-opinion-page .btn-link:hover {
+  color: #3f3b36;
+}
+
+.second-opinion-page .btn_hs {
+  text-transform: uppercase;
+}
+
+.second-opinion-page .second-opinion-content > a.btn_main {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .second-opinion-page .so-faq-block {

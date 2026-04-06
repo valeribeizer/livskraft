@@ -44,6 +44,9 @@
 .om-mig-img-1 {
   border-radius: 10px;
   width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .custom-marg {
@@ -70,6 +73,7 @@
 
   .om-mig-img-1 {
     width: 100%;
+    height: 600px;
   }
 
   .col-om-mig {
@@ -95,6 +99,7 @@
 
 @media (min-width: 1700px) {
   .om-mig-img-1 {
-    width: 80%;
+    width: 100%;
+    height: 600px;
   }
 }

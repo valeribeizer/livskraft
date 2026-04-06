@@ -97,6 +97,7 @@ const Tsjanster = () => {
 
         <div className="second-opinion-content">
           <div className="second-opinion-intro">
+            <h2 className="h2-so intro">Second Opinion</h2>
             <p className="p-ts">
               Känner du att något inte riktigt stämmer – trots att alla prover
               ser bra ut?
@@ -108,7 +109,7 @@ const Tsjanster = () => {
             </p>
           </div>
 
-          <h2 className="h2-so">Så här går det till</h2>
+          <h2 className="h2-so h2-so-story">Så här går det till</h2>
           <p className="p-ts">
             Fyll i{" "}
             <a
@@ -140,7 +141,7 @@ const Tsjanster = () => {
             (ord. 4 999 kr) – gäller de första 10 klienterna
           </p>
 
-          <h2 className="h2-so">Vad ingår i Second Opinion</h2>
+          <h2 className="h2-so h2-so-story">Vad ingår i Second Opinion</h2>
           <ul className="so-list">
             <li>
               Granskning av läkemedelslista, provsvar och hälsoformulär
@@ -172,7 +173,18 @@ const Tsjanster = () => {
             <li>Uppföljning vid behov</li>
           </ul>
 
-          <h2 className="h2-so">En verklig berättelse</h2>
+          <div className="so-faq-btn-wrap">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeD26SQCEJ3EyCzavucHDpMPkjjtp5u1dYOTDA7LYX8OtTBlw/viewform"
+              className="btn_main so-faq-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Få en Second Opinion
+            </a>
+          </div>
+
+          <h2 className="h2-so h2-so-story">En verklig berättelse</h2>
           <p className="p-ts">
             En klient kontaktade mig om sin mamma som hade andningsbesvär i
             vila och kraftig ryggsmärta. Proverna visade inget avvikande, och
