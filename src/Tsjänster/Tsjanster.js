@@ -199,6 +199,21 @@ const Tsjanster = () => {
             mamma och familj.
           </p>
 
+          <blockquote className="p-ts so-client-quote">
+            "Mamma blev bättre i både ryggsmärta och den tunga andningen
+            försvann efter ca 2 veckor när hon slutade med den sista kolesterol
+            tabletten. Nu har hon tagit nytt prov och läkaren ringde igår.
+            Kolesterolvärdena ligger bra så den tabletten behövs inte. 👍😃
+            <br />
+            Hon har nu fått en ny husläkare som hon ska träffa den 13/6. Hoppas
+            detta blir bra.
+            <br />
+            Tack för alla fina råd och hjälp.
+            <br />
+            Jag skickar ditt Instagram till kompisar så hoppas det kan spridas
+            brett."
+          </blockquote>
+
           <div className="so-faq-block">
             <div className="so-faq-btn-wrap">
               <Link to="/faq" className="btn_main so-faq-btn">

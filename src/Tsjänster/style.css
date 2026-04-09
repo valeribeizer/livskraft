@@ -56,6 +56,20 @@
   font-style: italic;
 }
 
+.second-opinion-page .so-client-quote {
+  margin: 4rem auto 0;
+  padding: 1rem 1.25rem;
+  font-style: italic;
+  text-align: center;
+  width: 50%;
+  font-size: 12px;
+  font-weight: 500;
+
+  @media (max-width: 768px) {
+    width: 85%;
+  }
+}
+
 .second-opinion-page .so-list,
 .second-opinion-page .so-sublist {
   list-style: none;
