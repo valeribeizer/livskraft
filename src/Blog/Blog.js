@@ -28,6 +28,16 @@ const getFieldValue = (fields, candidates) => {
   return "";
 };
 
+const optimizeImageUrl = (url) => {
+  if (!url) {
+    return "";
+  }
+  if (url.includes("res.cloudinary.com") && url.includes("/upload/")) {
+    return url.replace("/upload/", "/upload/f_auto,q_auto,w_900/");
+  }
+  return url;
+};
+
 const Blog = () => {
   const [selectedCategory, setSelectedCategory] = useState("alla");
   const [articles, setArticles] = useState([]);
@@ -94,7 +104,7 @@ const Blog = () => {
               category,
               excerpt: ingress || body || "",
               publishDate,
-              imageUrl,
+              imageUrl: optimizeImageUrl(imageUrl),
               slug,
             };
           })
@@ -161,12 +171,16 @@ const Blog = () => {
               >
                 <article
                   className="article-card"
-                  style={
-                    article.imageUrl
-                      ? { backgroundImage: `url(${article.imageUrl})` }
-                      : undefined
-                  }
                 >
+                  {article.imageUrl ? (
+                    <img
+                      src={article.imageUrl}
+                      alt={article.title}
+                      className="article-card-image"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  ) : null}
                   <div className="article-card-overlay">
                     <p className="article-card-category">
                       {String(article.category).replaceAll("_", " ").toUpperCase()}
