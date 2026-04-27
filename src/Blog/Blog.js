@@ -38,6 +38,7 @@ const optimizeImageUrl = (url) => {
   return url;
 };
 
+
 const Blog = () => {
   const [selectedCategory, setSelectedCategory] = useState("alla");
   const [articles, setArticles] = useState([]);

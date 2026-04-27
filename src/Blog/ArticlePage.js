@@ -17,6 +17,34 @@ const getFieldValue = (fields, candidates) => {
   return "";
 };
 
+const upsertMetaTag = (attribute, key, content) => {
+  if (!content) {
+    return;
+  }
+
+  let tag = document.head.querySelector(`meta[${attribute}="${key}"]`);
+  if (!tag) {
+    tag = document.createElement("meta");
+    tag.setAttribute(attribute, key);
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute("content", content);
+};
+
+const upsertCanonicalLink = (href) => {
+  if (!href) {
+    return;
+  }
+
+  let link = document.head.querySelector('link[rel="canonical"]');
+  if (!link) {
+    link = document.createElement("link");
+    link.setAttribute("rel", "canonical");
+    document.head.appendChild(link);
+  }
+  link.setAttribute("href", href);
+};
+
 const ArticlePage = () => {
   const { slug } = useParams();
   const [article, setArticle] = useState(null);
@@ -96,6 +124,30 @@ const ArticlePage = () => {
 
     fetchArticle();
   }, [slug]);
+
+  useEffect(() => {
+    if (!article) {
+      return;
+    }
+
+    const canonicalUrl = `${window.location.origin}/artiklar/${
+      article.slug || article.id
+    }`;
+    const title = article.title || "Artikel";
+    const description = article.ingress || "";
+    const image = article.imageUrl || "";
+
+    document.title = title;
+    upsertMetaTag("property", "og:title", title);
+    upsertMetaTag("property", "og:description", description);
+    upsertMetaTag("property", "og:image", image);
+    upsertMetaTag("property", "og:url", canonicalUrl);
+    upsertMetaTag("name", "twitter:card", "summary_large_image");
+    upsertMetaTag("name", "twitter:title", title);
+    upsertMetaTag("name", "twitter:description", description);
+    upsertMetaTag("name", "twitter:image", image);
+    upsertCanonicalLink(canonicalUrl);
+  }, [article]);
 
   return (
     <div className="blog-page">
