@@ -1,75 +1,187 @@
-import React from "react";
+import React, { useEffect, useMemo, useState } from "react";
+import { Link } from "react-router";
 import NavBar from "../NavBar/NavBar";
 import "./style.css";
 import Footer from "../Footer/Footer";
 
+const CATEGORY_FILTERS = [
+  { label: "Alla", key: "alla" },
+  { label: "Kroppen", key: "kroppen" },
+  { label: "Läkemedel", key: "lakenmedel" },
+  { label: "Naturligt stöd", key: "naturligt_stod" },
+  { label: "Nervsystemet", key: "nervsystemet" },
+  { label: "Kost", key: "kost" },
+  { label: "Klientresor", key: "klientresor" },
+  { label: "Från apoteket", key: "fran_apoteket" },
+];
+
+const AIRTABLE_BASE_ID = process.env.REACT_APP_AIRTABLE_BASE_ID;
+const AIRTABLE_TABLE_ID = process.env.REACT_APP_AIRTABLE_TABLE_ID;
+const AIRTABLE_TOKEN = process.env.REACT_APP_AIRTABLE_TOKEN;
+
+const getFieldValue = (fields, candidates) => {
+  for (const candidate of candidates) {
+    if (fields[candidate] !== undefined && fields[candidate] !== null) {
+      return fields[candidate];
+    }
+  }
+  return "";
+};
+
 const Blog = () => {
-  const blog =
-    "Har du någonsin undrat vad vi apotekare egentligen gör bakom disken? För många känns det kanske som att vi bara hämtar din medicin och lämnar ut den. Men sanningen är att det händer mycket mer än så – och det vi gör är ofta livsviktigt för din hälsa.\n\nVi är läkemedelsexperter som har utbildat oss i 5 år för att förstå både medicinernas kraft och deras risker. Vårt jobb är att granska ditt recept, säkerställa att du får rätt medicin, och att guida dig så att du kan använda den på ett tryggt och effektivt sätt.\n\nDet här tar tid – och det syns inte alltid utåt. Men varje gång vi försvinner bakom väggen, jobbar vi för din säkerhet.\n\nDet här är första delen i en serie där jag lyfter fram apotekarens roll och vad vi faktiskt gör för att hjälpa dig.\n\nSå vad gör vi apotekare bakom kulisserna?\n\n1️⃣ Vi granskar ditt recept noggrant Innan du får din medicin kontrollerar vi allt: Är dosen rätt? Finns det risk för att mediciner krockar? Vi följer alltid strikta regler för din säkerhet – det här tar tid, men det är livsviktigt.\n\n2️⃣ Vi hjälper dig använda läkemedlet rätt Hur och när ska du ta medicinen? Vad ska du tänka på för att undvika biverkningar? Vi finns här för att guida dig, och inga frågor är för små!\n\n3️⃣ Vi löser problem bakom disken Om medicinen är slut, receptet är otydligt eller det behövs alternativ – då kontaktar vi läkare eller hittar en snabb lösning.\n\n4️⃣ Vi är en del av vårdkedjan Från vaccinationer till livsstilsråd – vi är mycket mer än “de som står i kassan”.\n\nApoteket är inte en mataffär\n\nVi hanterar läkemedel som kan rädda liv, men fel hantering kan vara farlig. Därför är vår utbildning 5 år lång – och det är också därför vi tar tid att göra allt rätt.\n\nNästa gång pratar vi om varför tidsbrist och press ibland påverkarservicen.\n\n💬 Vad vill du veta mer om? Kommentera och följ mig på instagram @livskraft.eu för att vara först att veta när nästa del kommer!";
+  const [selectedCategory, setSelectedCategory] = useState("alla");
+  const [articles, setArticles] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [fetchError, setFetchError] = useState("");
+
+  useEffect(() => {
+    const fetchArticles = async () => {
+      if (!AIRTABLE_BASE_ID || !AIRTABLE_TABLE_ID || !AIRTABLE_TOKEN) {
+        setFetchError("Airtable-inställningar saknas.");
+        return;
+      }
+
+      setIsLoading(true);
+      setFetchError("");
+
+      try {
+        const query = new URLSearchParams();
+        query.append("sort[0][field]", "publish_date");
+        query.append("sort[0][direction]", "desc");
+        query.append(
+          "filterByFormula",
+          "OR({status}='Publicerad',{status}='Klar')"
+        );
+
+        const response = await fetch(
+          `https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${AIRTABLE_TABLE_ID}?${query.toString()}`,
+          {
+            headers: {
+              Authorization: `Bearer ${AIRTABLE_TOKEN}`,
+            },
+          }
+        );
+
+        if (!response.ok) {
+          const errorPayload = await response.json().catch(() => null);
+          const errorMessage =
+            errorPayload?.error?.message || "Kunde inte hämta artiklar.";
+          throw new Error(errorMessage);
+        }
+
+        const data = await response.json();
+        const mappedArticles = (data.records || [])
+          .map((record) => {
+            const fields = record.fields || {};
+            const title = getFieldValue(fields, ["title", "Title"]);
+            const category = getFieldValue(fields, ["category", "Category"]);
+            const ingress = getFieldValue(fields, ["ingress", "Ingress"]);
+            const body = getFieldValue(fields, ["body", "Body"]);
+            const publishDate = getFieldValue(fields, [
+              "publish_date",
+              "Publish Date",
+            ]);
+            const imageUrl = getFieldValue(fields, [
+              "features_image_url",
+              "featured_image_url",
+              "Featured Image URL",
+            ]);
+            const slug = getFieldValue(fields, ["slug", "Slug"]);
+
+            return {
+              id: record.id,
+              title: title || "Untitled",
+              category,
+              excerpt: ingress || body || "",
+              publishDate,
+              imageUrl,
+              slug,
+            };
+          })
+          .filter((article) => article.category);
+
+        setArticles(mappedArticles);
+      } catch (error) {
+        setFetchError(error.message || "Något gick fel vid hämtning av artiklar.");
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchArticles();
+  }, []);
+
+  const filteredArticles = useMemo(() => {
+    if (selectedCategory === "alla") {
+      return articles;
+    }
+    return articles.filter((article) => article.category === selectedCategory);
+  }, [articles, selectedCategory]);
+  const isEmpty = filteredArticles.length === 0;
 
   return (
-    <div>
+    <div className="blog-page">
       <NavBar />
       <div className="blog-container">
-        <h1>BLOGG</h1>
-        {window.innerWidth > 1024 ? (
-          <div className="row" style={{ alignItems: "center" }}>
-            <div className="col-6" style={{ textAlign: "start" }}>
-              <h3>
-                Apotekarens roll <br />
-                Del 1
-              </h3>
-              <p className="p-blog">{blog}</p>
-            </div>
+        <h1>ARTIKLAR</h1>
 
-            <div className="col-6 custom">
-              <img
-                className="img-blog"
-                src="blog-img-1.png"
-                alt="blog-img-1"
-                loading="lazy"
-              />
-              <img
-                className="img-blog second"
-                src="blog-img-2.png"
-                alt="blog-img-2"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        ) : (
-          <>
-            <div className="row">
-              <h3>
-                Apotekarens roll <br />
-                Del 1
-              </h3>
-              <p className="p-blog">{blog}</p>
-            </div>
-            <div className="row" style={{ alignItems: "center" }}>
-                <img
-                  className="img-blog"
-                  src="blog-img-1.png"
-                  alt="blog-img-1"
-                  loading="lazy"
-                />
-                <img
-                  className="img-blog"
-                  src="blog-img-2.png"
-                  alt="blog-img-2"
-                  loading="lazy"
-                />
-            </div>
-          </>
-        )}
+        <div className="article-filters">
+          {CATEGORY_FILTERS.map((category) => (
+            <button
+              key={category.key}
+              type="button"
+              className={`btn_main article-filter-btn ${
+                selectedCategory === category.key ? "active" : ""
+              }`}
+              onClick={() => setSelectedCategory(category.key)}
+            >
+              {category.label}
+            </button>
+          ))}
+        </div>
+
+        <section
+          className={`articles-list ${isEmpty ? "is-empty" : ""}`}
+          aria-live="polite"
+        >
+          {isLoading ? (
+            <p className="articles-empty">Laddar artiklar...</p>
+          ) : fetchError ? (
+            <p className="articles-empty">{fetchError}</p>
+          ) : isEmpty ? (
+            <p className="articles-empty">
+              Inga artiklar i denna kategori ännu.
+            </p>
+          ) : (
+            filteredArticles.map((article) => (
+              <Link
+                key={article.id}
+                className="article-card-link"
+                to={`/artiklar/${article.slug || article.id}`}
+              >
+                <article
+                  className="article-card"
+                  style={
+                    article.imageUrl
+                      ? { backgroundImage: `url(${article.imageUrl})` }
+                      : undefined
+                  }
+                >
+                  <div className="article-card-overlay">
+                    <p className="article-card-category">
+                      {String(article.category).replaceAll("_", " ").toUpperCase()}
+                    </p>
+                    <h3>{article.title}</h3>
+                  </div>
+                </article>
+              </Link>
+            ))
+          )}
+        </section>
       </div>
       <Footer />
     </div>
   );
-
-  // return (
-  //   <div></div>
-  // )
 };
 
 export default Blog;

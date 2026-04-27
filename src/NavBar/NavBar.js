@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className="navbar navbar-light bg-light d-none d-lg-block">
         <div className="container">
           <Link to="/" className="navbar-brand mx-auto">
-            <img className="logo" src="logo_nav.png" alt="logo" />
+            <img className="logo" src="/logo_nav.png" alt="logo" />
           </Link>
         </div>
       </div>
@@ -16,7 +16,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
           <Link to="/" className="navbar-brand mx-auto d-lg-none">
-            <img className="logo" src="logo_nav.png" alt="logo" />
+            <img className="logo" src="/logo_nav.png" alt="logo" />
           </Link>
           <button
             className="navbar-toggler"
@@ -47,6 +47,11 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link to="/artiklar" className="nav-link">
+                  ARTIKLAR
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link to="/faq" className="nav-link">
                   FAQ
                 </Link>
@@ -56,11 +61,6 @@ const NavBar = () => {
                   KONTAKT
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <Link to="/blog" className="nav-link">
-                  BLOGG
-                </Link>
-              </li> */}
               {/* <li className="nav-item">
                 <Link to="/" className="nav-link">
                   SW/ENG
