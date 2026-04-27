@@ -213,6 +213,10 @@
   font-size: 16px;
   line-height: 1.6;
   margin-top: 38px;
+
+  @media (max-width: 768px) {
+    font-size: 13px;
+  }
 }
 
 .article-page-body {
@@ -230,6 +234,10 @@
 .article-page-body li {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+
+  @media (max-width: 768px) {
+    font-size: 13px;
+  }
 }
 
 .article-page-body a {
