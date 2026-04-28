@@ -36,7 +36,7 @@ const HomeScreen = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Få en Second Opinion
+          Få en farmaceutisk vägledning
         </a>
       </div>
       <Klientroster />

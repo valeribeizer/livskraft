@@ -97,42 +97,41 @@ const Tsjanster = () => {
 
         <div className="second-opinion-content">
           <div className="second-opinion-intro">
-            <h2 className="h2-so intro">Second Opinion</h2>
+            <h2 className="h2-so intro">Farmaceutisk vägledning</h2>
             <p className="p-ts">
-              Känner du att något inte riktigt stämmer – trots att alla prover
-              ser bra ut?
+              Känner du att något inte riktigt stämmer trots att dina prover ser
+              bra ut?
             </p>
             <p className="p-ts">
-              Second Opinion är för dig som vill få kvalificerad bedömning av
-              din behandling och förstå vilka alternativ som finns – både
-              medicinska och mer naturliga.
+              Farmaceutisk vägledning riktar sig till dig som vill få en
+              genomtänkt och oberoende genomgång av dina läkemedel och din
+              hälsosituation. Fokus ligger på att skapa en tydlig bild av hur
+              dina läkemedel samverkar och vilka alternativ som kan vara
+              relevanta att diskutera vidare med din läkare.
             </p>
           </div>
 
-          <h2 className="h2-so h2-so-story">Så här går det till</h2>
+          <h2 className="h2-so h2-so-story">Så här går det till:</h2>
           <p className="p-ts">
-            Fyll i{" "}
+            Du fyller i{" "}
             <a
               href={HEALTH_FORM_URL}
               className="link-so"
               target="_blank"
               rel="noopener noreferrer"
             >
-              hälsoformuläret
+              [hälsoformulär]
             </a>{" "}
-            i lugn och ro!
+            i lugn och ro
           </p>
 
           <p className="p-ts p-so-lead">
-            Jag kontaktar dig för ett kostnadsfritt första samtal:
+            Du blir kontaktad för ett kostnadsfritt första samtal:
           </p>
           <ul className="so-list">
+            <li>30–60 minuter för att förstå din situation</li>
             <li>
-              30–60 minuter för att förstå din situation bättre
-            </li>
-            <li>
-              Ingen bindning – detta är ett första steg för att se om Second
-              Opinion passar dig
+              Ingen bindning – vi ser om tjänsten är rätt för dig
             </li>
           </ul>
 
@@ -141,34 +140,23 @@ const Tsjanster = () => {
             (ord. 4 999 kr) – gäller de första 10 klienterna
           </p>
 
-          <h2 className="h2-so h2-so-story">Vad ingår i Second Opinion</h2>
+          <h2 className="h2-so h2-so-story">Det här får du:</h2>
           <ul className="so-list">
             <li>
-              Granskning av läkemedelslista, provsvar och hälsoformulär
+              Genomgång av läkemedelslista, provsvar och hälsoformulär
             </li>
             <li>
-              Helhetsbedömning av symtom, livssituation och läkemedlens
-              samspel
+              Genomgång av symtom i relation till läkemedel och livssituation
             </li>
             <li>
-              Fördjupat samtal, 90 minuter (Online eller personligen efter
+              Fördjupat samtal (90 minuter, online eller enligt
               överenskommelse)
             </li>
+            <li>Tydlig sammanställning av möjliga nästa steg</li>
+            <li>Förslag på livsstilsförändringar som kan påbörjas direkt</li>
             <li>
-              <span className="so-li-title">Prioriterade rekommendationer</span>
-              <ul className="so-sublist">
-                <li>
-                  Icke-farmakologiska strategier som kan appliceras direkt
-                </li>
-                <li>
-                  Farmakologiska råd att diskutera vidare med behandlande
-                  läkare
-                </li>
-              </ul>
-            </li>
-            <li>
-              Medskick till behandlande läkare med motivering och relevanta
-              källhänvisningar, för tydlig och välunderbyggd dialog
+              Ett sammanfattande underlag du kan ta med dig i dialogen med din
+              läkare
             </li>
             <li>Uppföljning vid behov</li>
           </ul>
@@ -180,23 +168,22 @@ const Tsjanster = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Få en Second Opinion
+              Få vägledning
             </a>
           </div>
 
           <h2 className="h2-so h2-so-story">En verklig berättelse</h2>
           <p className="p-ts">
-            En klient kontaktade mig om sin mamma som hade andningsbesvär i
-            vila och kraftig ryggsmärta. Proverna visade inget avvikande, och
-            vården kunde inte ge svar.
-            Efter min genomgång av läkemedelslistan och strukturerade
-            åtgärdsförslag, justerades medicineringen i samråd med behandlande
-            läkare.
+            En klient kontaktade mig angående sin mamma som hade andningsbesvär
+            i vila och kraftig ryggsmärta. Proverna visade inget avvikande, och
+            vården kunde inte ge svar. Genom en strukturerad genomgång av
+            hennes läkemedelslista fick familjen ett tydligt underlag att ta
+            vidare till behandlande läkare. I dialog med läkaren justerades
+            därefter medicineringen.
           </p>
           <p className="p-ts p-ts-result">
-            <strong>Resultat:</strong> Efter två veckor minskade både
-            andningsbesvär och ryggsmärta betydligt – vardagen blev lättare för
-            mamma och familj.
+            <strong>Resultat:</strong> Efter två veckor upplevde mamman
+            betydligt mindre besvär – och familjen fick tillbaka vardagen.
           </p>
 
           <blockquote className="p-ts so-client-quote">
