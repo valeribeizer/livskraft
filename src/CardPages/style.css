@@ -1,0 +1,15 @@
+.card-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 120px 20px 80px;
+  text-align: center;
+}
+
+.card-page-text {
+  margin: 20px auto 30px;
+  max-width: 700px;
+}
+
+.card-page-btn {
+  display: inline-block;
+}

@@ -14,6 +14,16 @@ import Shoppen from "./Shoppen/Shoppen";
 import ContactForm from "./СontactForm/ContactForm";
 import SuccessMsg from "./SuccessMsg/SuccessMsg";
 import OmMig from "./Om mig/OmMig";
+import HelhetPage from "./CardPages/HelhetPage";
+import KallanPage from "./CardPages/KallanPage";
+import DjupetPage from "./CardPages/DjupetPage";
+import FlodetPage from "./CardPages/FlodetPage";
+import LjusetPage from "./CardPages/LjusetPage";
+import SkiftetPage from "./CardPages/SkiftetPage";
+import KarnanPage from "./CardPages/KarnanPage";
+import TroskelnPage from "./CardPages/TroskelnPage";
+import GrundenPage from "./CardPages/GrundenPage";
+import VandningenPage from "./CardPages/VandningenPage";
 
 
 function App() {
@@ -34,6 +44,16 @@ function App() {
         <Route path="/fa-stod" element={<ContactForm />} />
         <Route path="/skickad" element={<SuccessMsg />} />
         <Route path="/om-mig" element={<OmMig />} />
+        <Route path="/helhet" element={<HelhetPage />} />
+        <Route path="/kallan" element={<KallanPage />} />
+        <Route path="/djupet" element={<DjupetPage />} />
+        <Route path="/flodet" element={<FlodetPage />} />
+        <Route path="/ljuset" element={<LjusetPage />} />
+        <Route path="/skiftet" element={<SkiftetPage />} />
+        <Route path="/karnan" element={<KarnanPage />} />
+        <Route path="/troskeln" element={<TroskelnPage />} />
+        <Route path="/grunden" element={<GrundenPage />} />
+        <Route path="/vandningen" element={<VandningenPage />} />
       </Routes>
     </div>
   );
