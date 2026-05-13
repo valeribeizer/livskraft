@@ -3,8 +3,8 @@ import CardPageLayout from "./CardPageLayout";
 
 const SkiftetPage = () => (
   <CardPageLayout
+    splashCardId="skiftet"
     title="- Skiftet -"
-    subtitle="Wheel of Fortune (X)"
     ctaTo="/"
     ctaLabel="Utforska Livskraft"
   >

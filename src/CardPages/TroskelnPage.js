@@ -3,8 +3,8 @@ import CardPageLayout from "./CardPageLayout";
 
 const TroskelnPage = () => (
   <CardPageLayout
+    splashCardId="troskeln"
     title="- Tröskeln -"
-    subtitle="The Tower (XVI)"
     ctaTo="/"
     ctaLabel="Utforska Livskraft"
   >

@@ -1,3 +1,31 @@
+.card-splash {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: min(24px, 4vw);
+  background-color: #3b2316;
+  opacity: 1;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.card-splash--fade {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.card-splash-img {
+  max-width: min(420px, 92vw);
+  max-height: min(88vh, 720px);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
 .card-page-layout {
   min-height: 100vh;
   min-height: 100dvh;
@@ -14,13 +42,6 @@
   margin: 0 auto;
   padding: 120px 20px 80px;
   text-align: center;
-}
-
-.card-page-subtitle {
-  margin: 8px auto 0;
-  max-width: 700px;
-  font-size: 1.1rem;
-  opacity: 0.9;
 }
 
 .card-page-body {

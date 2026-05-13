@@ -3,8 +3,8 @@ import CardPageLayout from "./CardPageLayout";
 
 const DjupetPage = () => (
   <CardPageLayout
+    splashCardId="djupet"
     title="- Djupet -"
-    subtitle="The Moon (XVIII)"
     ctaTo="/"
     ctaLabel="Utforska Livskraft"
   >

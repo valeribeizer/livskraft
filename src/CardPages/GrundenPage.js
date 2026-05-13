@@ -3,8 +3,8 @@ import CardPageLayout from "./CardPageLayout";
 
 const GrundenPage = () => (
   <CardPageLayout
+    splashCardId="grunden"
     title="- Grunden -"
-    subtitle="The Star (XVII)"
     ctaTo="/"
     ctaLabel="Utforska Livskraft"
   >

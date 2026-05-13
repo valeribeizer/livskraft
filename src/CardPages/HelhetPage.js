@@ -3,8 +3,8 @@ import CardPageLayout from "./CardPageLayout";
 
 const HelhetPage = () => (
   <CardPageLayout
+    splashCardId="helhet"
     title="- Helhet -"
-    subtitle="The World (XXI)"
     ctaTo="/"
     ctaLabel="Utforska Livskraft"
   >

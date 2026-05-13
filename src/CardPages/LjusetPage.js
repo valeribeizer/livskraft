@@ -3,8 +3,8 @@ import CardPageLayout from "./CardPageLayout";
 
 const LjusetPage = () => (
   <CardPageLayout
+    splashCardId="ljuset"
     title="- Ljuset -"
-    subtitle="The Sun (XIX)"
     ctaTo="/"
     ctaLabel="Utforska Livskraft"
   >

@@ -3,8 +3,8 @@ import CardPageLayout from "./CardPageLayout";
 
 const KallanPage = () => (
   <CardPageLayout
+    splashCardId="kallan"
     title="- Källan -"
-    subtitle="The High Priestess (II)"
     ctaTo="/"
     ctaLabel="Utforska Livskraft"
   >
