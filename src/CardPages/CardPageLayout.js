@@ -4,8 +4,8 @@ import Footer from "../Footer/Footer";
 import { Link } from "react-router";
 import "./style.css";
 
-const SPLASH_VISIBLE_MS = 2600;
-const SPLASH_FADE_MS = 2000;
+const SPLASH_VISIBLE_MS = 1000;
+const SPLASH_FADE_MS = 3000;
 
 const CardPageLayout = ({
   title,

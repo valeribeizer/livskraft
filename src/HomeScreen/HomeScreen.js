@@ -17,7 +17,7 @@ const HomeScreen = () => {
           loading="lazy"
         />
         <h1 className="h1-hs">
-          Tänk dig en egen husapotekare – en advokat för din hälsa
+          Tänk dig en advokat för din hälsa
         </h1>
         <p className="p-hs p-hs-intro">
           Känner du dig osäker på om dina läkemedel verkligen passar dig?
