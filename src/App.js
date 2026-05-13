@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router";
+import { Routes, Route, Navigate } from "react-router";
 import HomeScreen from "./HomeScreen/HomeScreen";
 import OmLivskraft from "./Om oss/OmOss";
 import Kontakt from "./Kontakt/Kontakt";
@@ -44,16 +44,56 @@ function App() {
         <Route path="/fa-stod" element={<ContactForm />} />
         <Route path="/skickad" element={<SuccessMsg />} />
         <Route path="/om-mig" element={<OmMig />} />
-        <Route path="/helhet" element={<HelhetPage />} />
-        <Route path="/kallan" element={<KallanPage />} />
-        <Route path="/djupet" element={<DjupetPage />} />
-        <Route path="/flodet" element={<FlodetPage />} />
-        <Route path="/ljuset" element={<LjusetPage />} />
-        <Route path="/skiftet" element={<SkiftetPage />} />
-        <Route path="/karnan" element={<KarnanPage />} />
-        <Route path="/troskeln" element={<TroskelnPage />} />
-        <Route path="/grunden" element={<GrundenPage />} />
-        <Route path="/vandningen" element={<VandningenPage />} />
+        <Route path="/kort-helhet" element={<HelhetPage />} />
+        <Route path="/kort-kallan" element={<KallanPage />} />
+        <Route path="/kort-djupet" element={<DjupetPage />} />
+        <Route path="/kort-flodet" element={<FlodetPage />} />
+        <Route path="/kort-ljuset" element={<LjusetPage />} />
+        <Route path="/kort-skiftet" element={<SkiftetPage />} />
+        <Route path="/kort-karnan" element={<KarnanPage />} />
+        <Route path="/kort-troskeln" element={<TroskelnPage />} />
+        <Route path="/kort-grunden" element={<GrundenPage />} />
+        <Route path="/kort-vandningen" element={<VandningenPage />} />
+        <Route
+          path="/helhet"
+          element={<Navigate to="/kort-helhet" replace />}
+        />
+        <Route
+          path="/kallan"
+          element={<Navigate to="/kort-kallan" replace />}
+        />
+        <Route
+          path="/djupet"
+          element={<Navigate to="/kort-djupet" replace />}
+        />
+        <Route
+          path="/flodet"
+          element={<Navigate to="/kort-flodet" replace />}
+        />
+        <Route
+          path="/ljuset"
+          element={<Navigate to="/kort-ljuset" replace />}
+        />
+        <Route
+          path="/skiftet"
+          element={<Navigate to="/kort-skiftet" replace />}
+        />
+        <Route
+          path="/karnan"
+          element={<Navigate to="/kort-karnan" replace />}
+        />
+        <Route
+          path="/troskeln"
+          element={<Navigate to="/kort-troskeln" replace />}
+        />
+        <Route
+          path="/grunden"
+          element={<Navigate to="/kort-grunden" replace />}
+        />
+        <Route
+          path="/vandningen"
+          element={<Navigate to="/kort-vandningen" replace />}
+        />
       </Routes>
     </div>
   );
