@@ -4,17 +4,30 @@ import Footer from "../Footer/Footer";
 import { Link } from "react-router";
 import "./style.css";
 
-const CardPageLayout = ({ title }) => {
+const CardPageLayout = ({
+  title,
+  subtitle,
+  children,
+  ctaTo = "/kontakt",
+  ctaLabel = "Kontakta mig",
+}) => {
   return (
-    <div>
+    <div className="card-page-layout">
       <NavBar />
       <main className="card-page-container">
         <h1>{title}</h1>
-        <p className="card-page-text">
-          Innehall for den har sidan kommer inom kort.
-        </p>
-        <Link to="/kontakt" className="btn_main card-page-btn">
-          Kontakta mig
+        {subtitle ? (
+          <p className="card-page-subtitle">{subtitle}</p>
+        ) : null}
+        {children ? (
+          <div className="card-page-body">{children}</div>
+        ) : (
+          <p className="card-page-text">
+            Innehall for den har sidan kommer inom kort.
+          </p>
+        )}
+        <Link to={ctaTo} className="btn_main card-page-btn">
+          {ctaLabel}
         </Link>
       </main>
       <Footer />
